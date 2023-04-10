@@ -1,0 +1,4 @@
+﻿  源.cpp
+C:\Users\13396\Desktop\代码\数据类型\源.cpp(7,9): warning C4477: “printf”: 格式字符串“%ld”需要类型“long”的参数，但可变参数 1 拥有了类型“size_t”
+C:\Users\13396\Desktop\代码\数据类型\源.cpp(7,9): message : 请考虑在格式字符串中使用“%zd”
+  数据类型.vcxproj -> C:\Users\13396\Desktop\代码\数据类型\x64\Debug\数据类型.exe

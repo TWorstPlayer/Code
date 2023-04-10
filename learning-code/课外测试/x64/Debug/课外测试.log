@@ -1,0 +1,6 @@
+﻿婧?cpp(13,6): warning : unused variable 'r' [-Wunused-variable]
+婧?cpp(23,21): warning : variable 'a' is uninitialized when used here [-Wuninitialized]
+婧?cpp(23,12): message : initialize the variable 'a' to silence this warning
+婧?cpp(5,21): warning : variable 'a' is uninitialized when used here [-Wuninitialized]
+婧?cpp(5,12): message : initialize the variable 'a' to silence this warning
+  课外测试.vcxproj -> C:\Users\13396\Desktop\代码\课外测试\x64\Debug\课外测试.exe

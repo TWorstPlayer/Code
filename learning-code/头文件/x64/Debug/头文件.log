@@ -1,0 +1,5 @@
+﻿  powers.c
+C:\Users\13396\Desktop\代码\头文件\powers.c(8,5): warning C4101: “a”: 未引用的局部变量
+  源.cpp
+C:\Users\13396\Desktop\代码\头文件\powers.c(8,5): warning C4101: “a”: 未引用的局部变量
+  头文件.vcxproj -> C:\Users\13396\Desktop\代码\头文件\x64\Debug\头文件.exe

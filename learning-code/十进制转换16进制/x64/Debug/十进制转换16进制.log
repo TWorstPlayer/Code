@@ -1,0 +1,10 @@
+﻿婧?cpp(15,8): warning : variable 'outputmb' used in loop condition not modified in loop body [-Wfor-loop-analysis]
+婧?cpp(22,13): warning : unused variable 'c' [-Wunused-variable]
+婧?cpp(29,16): warning : format specifies type 'char *' but the argument has type 'char' [-Wformat]
+婧?cpp(6,17): warning : expression result unused [-Wunused-value]
+婧?cpp(17,13): warning : expression result unused [-Wunused-value]
+婧?cpp(22,33): warning : variable 'b' is uninitialized when used here [-Wuninitialized]
+婧?cpp(22,12): message : initialize the variable 'b' to silence this warning
+婧?cpp(5,20): warning : variable 'n1' is uninitialized when used here [-Wuninitialized]
+婧?cpp(4,8): message : initialize the variable 'n1' to silence this warning
+  十进制转换16进制.vcxproj -> C:\Users\13396\Desktop\代码\十进制转换16进制\x64\Debug\十进制转换16进制.exe

@@ -1,0 +1,5 @@
+﻿婧?.cpp(8,3): warning : 'scanf' is deprecated: This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. [-Wdeprecated-declarations]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stdio.h(1275,20): message : 'scanf' has been explicitly marked deprecated here
+E:\Microsoft Visual Studio\VC\Tools\MSVC\14.33.31629\include\vcruntime.h(355,55): message : expanded from macro '_CRT_INSECURE_DEPRECATE'
+E:\Microsoft Visual Studio\VC\Tools\MSVC\14.33.31629\include\vcruntime.h(345,47): message : expanded from macro '_CRT_DEPRECATE_TEXT'
+  数组测试.vcxproj -> C:\Users\13396\Desktop\代码\数组测试\x64\Debug\数组测试.exe
