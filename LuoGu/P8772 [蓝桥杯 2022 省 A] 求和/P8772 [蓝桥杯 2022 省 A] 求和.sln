@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "P8772 [蓝桥杯 2022 省 A] 求和", "P8772 [蓝桥杯 2022 省 A] 求和.vcxproj", "{750B868D-31A2-41C6-974A-BDF9D10FA406}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{750B868D-31A2-41C6-974A-BDF9D10FA406}.Debug|x64.ActiveCfg = Debug|x64
+		{750B868D-31A2-41C6-974A-BDF9D10FA406}.Debug|x64.Build.0 = Debug|x64
+		{750B868D-31A2-41C6-974A-BDF9D10FA406}.Debug|x86.ActiveCfg = Debug|Win32
+		{750B868D-31A2-41C6-974A-BDF9D10FA406}.Debug|x86.Build.0 = Debug|Win32
+		{750B868D-31A2-41C6-974A-BDF9D10FA406}.Release|x64.ActiveCfg = Release|x64
+		{750B868D-31A2-41C6-974A-BDF9D10FA406}.Release|x64.Build.0 = Release|x64
+		{750B868D-31A2-41C6-974A-BDF9D10FA406}.Release|x86.ActiveCfg = Release|Win32
+		{750B868D-31A2-41C6-974A-BDF9D10FA406}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D1E2C058-D341-44B9-A296-2F12AC44302E}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,2 @@
+﻿婧?cpp(28,17): warning : format specifies type 'int' but the argument has type 'int *' [-Wformat]
+  P2141 [NOIP2014 普及组] 珠心算测验.vcxproj -> C:\Users\13396\Desktop\代码\P2141 [NOIP2014 普及组] 珠心算测验\x64\Debug\P2141 [NOIP2014 普及组] 珠心算测验.exe

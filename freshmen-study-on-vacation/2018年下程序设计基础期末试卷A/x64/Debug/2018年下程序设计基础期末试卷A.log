@@ -1,0 +1,3 @@
+﻿  源.c
+D:\桌面\资料\程序设计基础\代码\freshmen-study-on-vacation\2018年下程序设计基础期末试卷A\源.c(87,8): warning C4244: “函数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+  2018年下程序设计基础期末试卷A.vcxproj -> D:\桌面\资料\程序设计基础\代码\freshmen-study-on-vacation\2018年下程序设计基础期末试卷A\x64\Debug\2018年下程序设计基础期末试卷A.exe

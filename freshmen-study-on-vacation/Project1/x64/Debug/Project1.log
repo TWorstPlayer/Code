@@ -1,0 +1,6 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8028: 中间目录(x64\Debug\)包含从另一个项目(Project1.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  inoculationsys.c
+D:\桌面\资料\程序设计基础\期中考试c语言\最后一次作业\框架\inoculationsys.c(37,8): warning C4244: “函数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+D:\桌面\资料\程序设计基础\期中考试c语言\最后一次作业\框架\inoculationsys.c(91,15): warning C4047: “函数”:“const char *”与“FILE *(__cdecl *)(const char *,const char *)”的间接级别不同
+D:\桌面\资料\程序设计基础\期中考试c语言\最后一次作业\框架\inoculationsys.c(91,10): warning C4024: “perror”: 形参和实参 1 的类型不同
+  Project1.vcxproj -> D:\桌面\资料\程序设计基础\代码\freshmen-study-on-vacation\Project1\x64\Debug\2021年期末考题.exe

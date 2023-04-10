@@ -1,0 +1,10 @@
+﻿  源.cpp
+D:\桌面\资料\程序设计基础\代码\freshmen-study-on-vacation\2023.1.13\源.cpp(19,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
+D:\桌面\资料\程序设计基础\代码\freshmen-study-on-vacation\2023.1.13\源.cpp(19,9): message : 请考虑在格式字符串中使用“%zd”
+D:\桌面\资料\程序设计基础\代码\freshmen-study-on-vacation\2023.1.13\源.cpp(20,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
+D:\桌面\资料\程序设计基础\代码\freshmen-study-on-vacation\2023.1.13\源.cpp(20,9): message : 请考虑在格式字符串中使用“%zd”
+D:\桌面\资料\程序设计基础\代码\freshmen-study-on-vacation\2023.1.13\源.cpp(21,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
+D:\桌面\资料\程序设计基础\代码\freshmen-study-on-vacation\2023.1.13\源.cpp(21,9): message : 请考虑在格式字符串中使用“%zd”
+D:\桌面\资料\程序设计基础\代码\freshmen-study-on-vacation\2023.1.13\源.cpp(22,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
+D:\桌面\资料\程序设计基础\代码\freshmen-study-on-vacation\2023.1.13\源.cpp(22,9): message : 请考虑在格式字符串中使用“%zd”
+  2023.1.13.vcxproj -> D:\桌面\资料\程序设计基础\代码\freshmen-study-on-vacation\2023.1.13\x64\Debug\2023.1.13.exe
