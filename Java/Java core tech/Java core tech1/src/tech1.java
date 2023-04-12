@@ -62,13 +62,39 @@ public class tech1 {
         int cp=a.codePointAt(i);
         if(Character.isSupplementaryCodePoint(cp))i+=2;
         else i++;
-
-
-
-
-
-
-
     }
 }
 */
+public class tech1{
+
+     String name;
+     int input;
+
+
+    tech1(String n,int b)
+    {
+        name=n;
+        input=b;
+    }
+
+    public String toString ()
+    {
+        return "名字是"+name;
+
+    }
+
+
+
+
+
+
+
+
+}
+
+     class tech2{
+
+
+
+}
+
