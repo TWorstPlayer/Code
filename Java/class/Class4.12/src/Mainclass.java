@@ -9,7 +9,7 @@ public class Mainclass {
         size =Size.SMALL;
         Scanner input =new Scanner(System.in);
         String str=input.next().toUpperCase();   //toUpperCase 把读入的字符串全部变为大写
-        String str1=input.next().toLowerCase();   //toUpperCase 把读入的字符串全部变为小写
+       // String str1=input.next().toLowerCase();   //toUpperCase 把读入的字符串全部变为小写
 
 
         size =Enum.valueOf(Size.class,str);//Enum.valueOf 这个是一个类方法，可以直接通过Enum这个类名去访问这个方法
@@ -21,8 +21,8 @@ public class Mainclass {
       //  System.out.println(ClassA.count);
 
         System.out.println("ordinal:"+size.ordinal());
-        System.out.println("ordinal:"+size.getStr());
-        System.out.println("ordinal:"+size.getd());
+        System.out.println("getStr:"+size.getStr());
+        System.out.println("getd:"+size.getd());
 
     }
 }

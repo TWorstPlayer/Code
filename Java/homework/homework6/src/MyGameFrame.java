@@ -25,6 +25,8 @@ public class MyGameFrame extends JFrame implements KeyListener{
         thread.start();
 
     }
+
+
     public void paint(Graphics g) {
         g.setColor(Color.BLACK);
         g.fillRect(0, 0, 500, 300);
@@ -39,10 +41,10 @@ public class MyGameFrame extends JFrame implements KeyListener{
         int key;
         key = e.getKeyCode();
         switch(key){
-            case KeyEvent.VK_UP:mainTank.setDirection(0);break;
-            case KeyEvent.VK_RIGHT:mainTank.setDirection(1);break;
-            case KeyEvent.VK_DOWN:mainTank.setDirection(2);break;
-            case KeyEvent.VK_LEFT:mainTank.setDirection(3);break;
+            case KeyEvent.VK_UP:mainTank.setDirection(Direction.UP);break;
+            case KeyEvent.VK_RIGHT:mainTank.setDirection(Direction.RIGHT);break;
+            case KeyEvent.VK_DOWN:mainTank.setDirection(Direction.DOWN);break;
+            case KeyEvent.VK_LEFT:mainTank.setDirection(Direction.LEFT);break;
         }
     }
 
