@@ -156,16 +156,54 @@
 //                              //上位类类型的变量可以引用下位类的实例，但下位类类型的变量不可以引用上位类的实例
 //    }
 //}
+//
+//import java.awt.*;
+//
+//public class Mainclass  {
+//    public static void main(String[] args) {
+//        Point point =new Point();
+//        int a= Integer.MAX_VALUE;
+//        System.out.println(a);
+//    }
+//
+//    int a;
+//}
 
-import java.awt.*;
+import java.util.Vector;
 
-public class Mainclass  {
+public class Object1 {
+
+//    protected String d(){
+//        return "Hi";
+//
+//    }
+
     public static void main(String[] args) {
-        Point point =new Point();
-        int a= Integer.MAX_VALUE;
-        System.out.println(a);
-    }
+//        Object2 object2=new Object2();
+//        Object1 object1=new Object1();
+//        System.out.println(object2.d());
+//        System.out.println(object1.d());
+//        int [] arr=new int[3];
+        Vector v=new Vector();
+        v.addElement(1);
+        v.addElement("abc");
+        v.addElement(3.141459);
+        v.insertElementAt(4,0);
+        System.out.println(v.firstElement());       //查询第一个元素
+        System.out.println(v.lastElement());        //查询最后一个
+        System.out.println(v.elementAt(1)); //查询指定元素
+        System.out.println(v.size());               //返回元素个数
+        System.out.println(v.capacity());           //返回容量
 
-    int a;
+    }
 }
+
+
+//class Object2 extends Object1 {
+//
+//    protected String d(){
+//
+//        return super.d();
+//    }
+//}
 

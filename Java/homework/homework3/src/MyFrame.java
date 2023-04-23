@@ -29,6 +29,7 @@ public class MyFrame extends JFrame implements KeyListener{
 
 
 
+
         File f = new File("D:\\桌面\\资料\\程序设计基础\\代码\\Java\\homework\\homework3\\robots_sprite.png");
 
         try {

@@ -80,7 +80,7 @@ public class MyFrame extends JFrame {
         add(contentPanel);
 
 
-jcom1.addItemListener(new ItemListener() {
+        jcom1.addItemListener(new ItemListener() {
     @Override
     public void itemStateChanged(ItemEvent e) {
         int selectedValue = (int) jcom1.getSelectedItem();
