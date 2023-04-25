@@ -16,7 +16,7 @@ public class Tank {
     private Image img;
     private int flag=0;
     public Tank() {
-        File f= new File("D:\\桌面\\资料\\程序设计基础\\代码\\Java\\class\\Class3.22\\robots_sprite.png");
+        File f= new File("D:\\桌面\\code\\Java\\class\\Class3.22\\robots_sprite.png");
 
         try {
             img = ImageIO.read(f);
