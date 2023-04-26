@@ -30,7 +30,7 @@ public class LocalDateTest {
         {
             if(date.getDayOfMonth()==day)
             {
-                System.out.printf("   *");
+                System.out.print("   *");
             }
             else
             {

@@ -1,4 +1,3 @@
-import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.Image;
 import java.io.File;
@@ -7,14 +6,15 @@ import java.io.IOException;
 import javax.imageio.ImageIO;
 
 public class Bullet {
-	private int x;
+	protected int x;
 	protected int y;
-	private int dir=0;//0 up 1 right 2 down 3 left
-	protected Image img;
+	
+	protected int dir=0;//0 up 1 right 2 down 3 left
+	protected Image img; 
+
 	
 	public Bullet(int ax,int ay,int adir) {
-		File f;
-		f = new File("D:\\桌面\\code\\Java\\class\\Class4.19.1\\robots_sprite.png");
+		File f = new File("D:\\photo\\robots_sprite.png");
 		try {
 			img = ImageIO.read(f);
 		} catch (IOException e1) {
@@ -25,23 +25,18 @@ public class Bullet {
 		y = ay;
 		dir = adir;
 	}
-	public void move() {
-
+	public void move() {	
 		switch(dir) {
-		case 0:
-			y -= 4;break; 
-		case 1:
-			x += 4;break;
-		case 2:
-			y += 4;break;
-		case 3:
-			x -= 4;break;
+		case 0:	y -= 8;break;
+		case 1: x += 8;break;
+		case 2: y += 8;break;
+		case 3: x -= 8;break;
 		}
 	}
-	public void draw(Graphics g) {		
-		g.drawImage(img, x, y, x+34, y+34, 5*34, 6*34, 6*34, 7*34,null);
-		g.setColor(Color.WHITE);
-		g.drawOval(x, y, 10, 10);
+	public void draw(Graphics g) {	
+		g.drawImage(img, x, y, x+34, y+34, 5*34, 6*34, 6*34,7*34, null);		
+		
 	}
-
+	
 }
+

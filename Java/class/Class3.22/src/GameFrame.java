@@ -13,7 +13,7 @@ public class GameFrame extends JFrame implements KeyListener {
 
 
 
-    private Tank tank;
+    private final Tank tank;
     public GameFrame() {
 
         tank = new Tank();

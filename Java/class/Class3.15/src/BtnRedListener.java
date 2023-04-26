@@ -4,8 +4,8 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class BtnRedListener implements ActionListener {
-   private JFrame frame;
-   private Color color;
+   private final JFrame frame;
+   private final Color color;
    public BtnRedListener(JFrame fr,Color c){
        frame=fr;
        color=c;

@@ -169,6 +169,7 @@
 //    int a;
 //}
 
+/*
 import java.util.Vector;
 
 public class Object1 {
@@ -197,6 +198,7 @@ public class Object1 {
 
     }
 }
+*/
 
 
 //class Object2 extends Object1 {
@@ -206,4 +208,30 @@ public class Object1 {
 //        return super.d();
 //    }
 //}
+
+import java.io.IOException;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Path;
+import java.util.Date;
+import java.util.Scanner;
+
+public class Object1{
+
+    public static void main(String[] args) throws IOException {
+        /*Scanner input1 =new Scanner(Path.of("D:\\桌面\\code\\Java\\Java core tech\\Java core tech1\\abc.txt"), StandardCharsets.UTF_8);
+        Scanner input2 =new Scanner(System.in);
+
+        int a =input1.nextInt();
+        String str = input1.next();
+
+        System.out.println(a);
+        System.out.println(str);*/
+
+      /*  String a= "acbnd";
+        System.out.printf("%8s",a);
+*/
+        System.out.printf("%tc",new Date());
+
+    }
+}
 

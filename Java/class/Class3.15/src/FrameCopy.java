@@ -6,8 +6,8 @@ import javax.swing.JButton;
 
 public class FrameCopy extends JFrame implements ActionListener {
 
-    private TextField txt1;
-    private TextField txt2;
+    private final TextField txt1;
+    private final TextField txt2;
     public FrameCopy(String str){
         super();
         this.setSize(500,200);

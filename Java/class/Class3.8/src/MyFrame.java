@@ -6,7 +6,7 @@ import java.io.IOException;
 
 
 public class MyFrame extends JFrame {
-    private int x=50;
+    private final int x=50;
     private int y=50;
     private  int flag=0;
     private Image img;
@@ -50,7 +50,7 @@ public class MyFrame extends JFrame {
         g.setColor(Color.black);
         g.fillRect(0, 0, 500, 300);
         flag=(flag+1)%2;
-        g.drawImage(img,x,y,x+34,y+34,0+flag*34,0,flag*34+34,34,this);
+        g.drawImage(img,x,y,x+34,y+34, flag * 34,0,flag*34+34,34,this);
 
 
     }

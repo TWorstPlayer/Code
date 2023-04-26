@@ -8,7 +8,7 @@ import java.util.ArrayList;
 public class FrameMouse extends JFrame implements MouseListener, MouseMotionListener {
     private int x1,y1;
     private int x2,y2;
-    private ArrayList<Point> points =new ArrayList<Point>();
+    private final ArrayList<Point> points =new ArrayList<Point>();
 
     public FrameMouse(String str){
         super();
