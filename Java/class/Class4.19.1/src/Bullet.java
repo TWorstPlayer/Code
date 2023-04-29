@@ -37,6 +37,10 @@ public class Bullet {
 		g.drawImage(img, x, y, x+34, y+34, 5*34, 6*34, 6*34,7*34, null);		
 		
 	}
+	public boolean isClick (int ax,int ay ,int aw,int ah)
+	{
+		return x<ax||y<ay||x>aw||y>ah;
+	}
 	
 }
 

@@ -1,3 +1,4 @@
+/*
 //public class Mainclass {
 //
 //    public static void main(String[] args) {
@@ -169,6 +170,7 @@
 //    int a;
 //}
 
+*/
 /*
 import java.util.Vector;
 
@@ -198,7 +200,8 @@ public class Object1 {
 
     }
 }
-*/
+*//*
+
 
 
 //class Object2 extends Object1 {
@@ -212,26 +215,158 @@ public class Object1 {
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Path;
+import java.util.Arrays;
 import java.util.Date;
 import java.util.Scanner;
 
 public class Object1{
 
     public static void main(String[] args) throws IOException {
-        /*Scanner input1 =new Scanner(Path.of("D:\\桌面\\code\\Java\\Java core tech\\Java core tech1\\abc.txt"), StandardCharsets.UTF_8);
+        */
+/*Scanner input1 =new Scanner(Path.of("D:\\桌面\\code\\Java\\Java core tech\\Java core tech1\\abc.txt"), StandardCharsets.UTF_8);
         Scanner input2 =new Scanner(System.in);
 
         int a =input1.nextInt();
         String str = input1.next();
 
         System.out.println(a);
-        System.out.println(str);*/
+        System.out.println(str);*//*
 
-      /*  String a= "acbnd";
+
+      */
+/*  String a= "acbnd";
         System.out.printf("%8s",a);
-*/
-        System.out.printf("%tc",new Date());
+*//*
+
+        //System.out.printf("%tc",new Date());
+
+
+
+        //for each 的用法
+        //直接遍历整个数组，对比于另外一种用for遍历数组的写法来说，这一种写法可以不用管边界元素，防止越界
+
+       */
+/* int []arr = new int[4];
+        arr[0]=1;
+        arr[1]=11;
+        arr[2]=111;
+        arr[3]=11111;
+
+        for(int a:arr)
+        {
+            System.out.println(a);
+        }*//*
+
+
+
+
+    */
+/*    int []arr = new int[4];
+        arr[0]=81;
+        arr[1]=1;
+        arr[2]=111;
+        arr[3]=1311;
+        Arrays.sort(arr);
+
+        for(int a:arr)
+        {
+            System.out.println(a);
+        }*//*
+
+
+
+        var a=1;
+        System.out.println(a);
+
+
 
     }
 }
 
+*/
+
+
+import java.sql.SQLOutput;
+import java.util.ArrayList;
+
+public class Object1 {
+    public static void main(String[] args) {
+   /*     //字符串的四种构造方法
+        //1：使用直接赋值的方式得到字符串
+        String str1= "abc";
+        System.out.println(str1);
+
+        //2:使用new的方式来获取一个新的字符串
+        //空参构造，获得空白的一个字符串，不含任何内容
+        String str2 =new String();
+        System.out.println(str2);
+
+        //传递一个字符串，根据传递的字符串内容再构造一个新的字符串对象
+        String str3 =new String("abc");
+        System.out.println(str3);
+
+        //3:传递字符数组，自动把字符数组拼接成字符串
+        char []arr ={'a','b','c'};
+        String str4=new String(arr);
+        System.out.println(str4);
+
+        //4：传递一个字节数组（byte数组），根据字节数组的内容再创建一个新的字符串，字节数组里的内容对照ASSIC表翻译
+        byte []arr2={97,98,99};
+        String str5=new String(arr2);
+        System.out.println(str5);
+        //用int数组不行*/
+
+
+
+        /*String s1 ="abc";
+        String s2 ="ab";
+        String s3=s2+"c";
+        System.out.println(s1==s3);//结果是false
+        //JDK8以前，字符串拼接是底层产生一个StringBuilder对象，然后使用其append方法进行拼接
+        //然后再用toString方法转换回String类型，而toString方法的底层是new了一个字符串，数据存储在堆区里面
+        //在JDK8以后，系统预估字符串大小，然后把字符串存在数组里面，此时也是产生一个新的字符串
+        //而s1这种直接赋值法是在串区存储，与s3的地址是不同的，所以结果是false*/
+
+        /*String s1 ="abc";
+        String s2="a"+"b"+"c";
+        System.out.println(s1==s2);//结果是true
+        System.out.println(s1.hashCode());//打印s1的地址，结果为96354
+        System.out.println(s2.hashCode());//打印s2的地址，结果也为96354，说明了s2和s1指向同一个字符串
+        //这种情况下没有变量，在编译过程中存在常量优化机制，直接把a，b，c接在一起成为abc然后就找到串池里面的abc*/
+
+     /*   StringBuilder sb =new StringBuilder("ac");
+        System.out.println(sb.capacity());
+        sb.append("aaaaaaaaaaaaaaaaa");
+        System.out.println(sb.capacity());*/
+
+
+        ArrayList<String> arr =new ArrayList<>();
+        arr.add("Abc");
+        arr.add(" Asdasad");
+        arr.add(" Asdasad");
+        System.out.println(arr);
+
+        String a=arr.remove(0);
+        boolean b=arr.remove(" Asdasad");
+        System.out.println(a);
+        System.out.println(b);
+
+
+        String c=arr.set(0,"cbd");
+        System.out.println(c);
+
+
+        ArrayList<Integer> arr1 =new ArrayList<>();
+        arr1.add(1);
+        arr1.add(2);
+        System.out.println(arr1.get(0));
+
+
+
+
+
+
+
+
+    }
+}
