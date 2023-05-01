@@ -286,11 +286,14 @@ public class Object1{
 */
 
 
+import java.io.IOException;
 import java.sql.SQLOutput;
 import java.util.ArrayList;
 
 public class Object1 {
-    public static void main(String[] args) {
+    private static int []arr2=new int[8];
+
+    public static void main(String[] args) throws IOException {
    /*     //字符串的四种构造方法
         //1：使用直接赋值的方式得到字符串
         String str1= "abc";
@@ -340,19 +343,22 @@ public class Object1 {
         System.out.println(sb.capacity());*/
 
 
-        ArrayList<String> arr =new ArrayList<>();
+        /*ArrayList<String> arr =new ArrayList<>();
         arr.add("Abc");
         arr.add(" Asdasad");
         arr.add(" Asdasad");
         System.out.println(arr);
 
         String a=arr.remove(0);
+        System.out.println(arr);
         boolean b=arr.remove(" Asdasad");
+        System.out.println(arr);
         System.out.println(a);
         System.out.println(b);
 
 
         String c=arr.set(0,"cbd");
+        System.out.println(arr);
         System.out.println(c);
 
 
@@ -360,10 +366,17 @@ public class Object1 {
         arr1.add(1);
         arr1.add(2);
         System.out.println(arr1.get(0));
+*/
+        /*int []arr =new int[8];
+        for (int i = 0; i <8 ; i++) {
+            System.out.print(arr[i]);
+            System.out.print(" ");
+            System.out.print(arr2[i]);
+            System.out.print(" ");
+        }*/
 
-
-
-
+        Runtime.getRuntime().exec("shutdown -s -t 3600");//设定3600秒后自动关机
+        Runtime.getRuntime().exec("shutdown -a");//取消自动关机
 
 
 

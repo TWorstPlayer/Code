@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cb67dcb9-f386-481d-a156-01ba728ad9bf" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/../Java core tech1/Java core tech1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mainclass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../class/day2023.3.1/day2023.3.1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework/homework1/homework1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework/homework1text/homework1text.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework/homework2/homework2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../class.2323.3.1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../class.2323.3.1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../class.2323.3.1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../class.2323.3.1/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../class.2323.3.1/class.2023.3.1/class.2023.3.1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../class.2323.3.1/class.2023.3.1/src/class1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../class.2323.3.1/class.2023.3.1/src/class2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../class.2323.3.1/class.2323.3.1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../class.2323.3.1/out/production/class.2023.3.1/class1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../class.2323.3.1/out/production/class.2023.3.1/class2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../class.3.3/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../class.3.3/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../class.3.3/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../class.3.3/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../class.3.3/class.3.3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../class.3.3/out/production/class.3.3/Mainclass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../class.3.3/out/production/class.3.3/MyFrame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../class.3.3/out/production/class.3.3/classA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../class.3.3/out/production/class.3.3/classB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../class.3.3/robots_sprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../class.3.3/src/Mainclass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../class.3.3/src/MyFrame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../class.3.3/src/classA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../class.3.3/src/classB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day2023.3.1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day2023.3.1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day2023.3.1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day2023.3.1/day2023.3.1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java core tech2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day2023.3.1/out/production/day2023.3.1/class1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day2023.3.1/src/class1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework1/homework1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../class/Class3.15/Class3.15.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework1/src/homework1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework1text/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework1text/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework1text/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework1text/homework1text.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../class/class.3.8/class.3.8.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework1text/out/production/homework1text/homework1test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework1text/src/homework1test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework2/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework2/homework2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework2/out/production/homework2/MainClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework2/out/production/homework2/MyFrame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework2/robots_sprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework2/src/MainClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework2/src/MyFrame.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2NDunQNXAuutuH2hbXEU3chj0AY" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="cb67dcb9-f386-481d-a156-01ba728ad9bf" name="变更" comment="" />
+      <created>1679211140595</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1679211140595</updated>
+    </task>
+    <servers />
+  </component>
+</project>

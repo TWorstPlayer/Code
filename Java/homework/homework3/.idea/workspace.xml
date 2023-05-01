@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c91dd704-a636-4539-a711-2d9c406ad73b" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/../../class/Class3.15/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../class/Class3.15/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../class/Class3.15/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../class/Class3.15/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../class/Class3.15/src/BtnRedListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../class/Class3.15/src/ClassA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../class/Class3.15/src/ClassAdd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../class/Class3.15/src/ClassB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../class/Class3.15/src/ClassMinus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../class/Class3.15/src/FrameColor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../class/Class3.15/src/FrameCopy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../class/Class3.15/src/FrameMouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../class/Class3.15/src/Icla.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../class/Class3.15/src/MainClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../class/Class3.8/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../class/Class3.8/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../class/Class3.8/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../class/Class3.8/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../class/Class3.8/Class3.8.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../class/Class3.8/out/production/homework3/MyFrame.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../class/Class3.8/out/production/homework3/mainclass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../class/Class3.8/src/Mainclass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../class/Class3.8/src/MyFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../class/Class3.8/src/classA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../class/Class3.8/src/classB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../class/class/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../class/class/out/production/Class3.8/Mainclass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../class/class/out/production/Class3.8/MyFrame.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../class/class/out/production/Class3.8/classA.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../class/class/out/production/Class3.8/classB.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../class/class/out/production/homework3/MyFrame.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../class/class/out/production/homework3/mainclass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework/homework1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework/homework1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework/homework1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework/homework1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework/homework1/out/production/homework1text/homework1test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework/homework1/src/homework1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework/homework2/src/MainClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework/homework2/src/MyFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework/homework3/homework3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework/homework3/robots_sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework/homework3/src/MyFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework/homework3/src/mainclass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework/homework4/homework4.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../class/class.3.8/class.3.8.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../class/day2023.3.1/day2023.3.1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework/homework1text/homework1text.iml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2NDwh9iHukn9IZEv24A27ixG1NK" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "D:/桌面/资料/程序设计基础/代码/Java/homework1/homework4"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="c91dd704-a636-4539-a711-2d9c406ad73b" name="变更" comment="" />
+      <created>1679212079094</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1679212079094</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

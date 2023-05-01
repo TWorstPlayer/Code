@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dce5c1de-10ba-4a06-9394-57f0ed9186a0" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/../Class3.29/src/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class3.29/src/LocalDateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class3.29/src/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test/Test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test/src/ShowContentFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework5/src/Mainclass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework5/src/MyFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework5/src/calendar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework5/日历.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Class3.29/src/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Class3.29/src/Mainclass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Class3.29/MainClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Class3.29/MainClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework/homework1/out/production/homework1text/homework1test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework/homework4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework/homework4/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2NRDVYZydmkzHRFAXdjCqM6PlFJ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;19&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/桌面/资料/程序设计基础/代码/Java/homework/homework2&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.语言默认值&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\桌面\资料\程序设计基础\代码\Java\class\Class3.8" />
+      <recent name="D:\桌面\资料\程序设计基础\代码\Java\class\Class3.15" />
+      <recent name="D:\桌面\资料\程序设计基础\代码\Java\class\Class3.22" />
+      <recent name="D:\桌面\资料\程序设计基础\代码\Java\homework\homework4" />
+      <recent name="D:\桌面\资料\程序设计基础\代码\Java\homework\homework3" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Class3.8" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Class3.8" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="dce5c1de-10ba-4a06-9394-57f0ed9186a0" name="变更" comment="" />
+      <created>1679618026187</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1679618026187</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
