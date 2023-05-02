@@ -289,6 +289,7 @@ public class Object1{
 import java.io.IOException;
 import java.sql.SQLOutput;
 import java.util.ArrayList;
+import java.util.Objects;
 
 public class Object1 {
     private static int []arr2=new int[8];
@@ -375,8 +376,57 @@ public class Object1 {
             System.out.print(" ");
         }*/
 
-        Runtime.getRuntime().exec("shutdown -s -t 3600");//设定3600秒后自动关机
-        Runtime.getRuntime().exec("shutdown -a");//取消自动关机
+      /*  Runtime.getRuntime().exec("shutdown -s -t 3600");//设定3600秒后自动关机
+        Runtime.getRuntime().exec("shutdown -a");//取消自动关机*/
+
+  /*      String str ="abc";
+        if(str.charAt(0)=='a')
+        {
+            System.out.println(1);
+        }
+
+*/
+
+      /*  //正则表达式
+        //1：字符类正则表达式（只匹配一个字符）
+        System.out.println("字符类正则表达式");
+        System.out.println("a".matches("[a-d]"));          //a-d                 结果：true
+        System.out.println("b".matches("[a-b[c-d]]"));     //a-b和c-d的并集       结果：true
+        System.out.println("c".matches("[a-b&&[^d-e]]"));  //a-b和非d-e的交集     结果：false
+        System.out.println("c".matches("[^c]"));           //非c                 结果：false
+        System.out.println("预定义字符");
+        //2：预定义字符（只匹配一个字符）
+        System.out.println("1".matches("."));
+        System.out.println("a".matches("."));
+
+        System.out.println("1".matches("\\d"));
+        System.out.println("a".matches("\\d"));*/
+
+      /*  Object[] arr1 =new Object[3];
+        Object[] arr2 =new Object[3];
+
+        arr1[0]="abc";
+        arr2[0]="abc";
+
+        arr1[1]=1.1;
+        arr2[1]=2.1;
+
+        arr1[2]='a';
+        arr2[2]='b';
+
+      *//*  if(arr1[0]==arr2[0]) System.out.println(1);
+        if(arr1[1]!=arr2[1]) System.out.println(-1);
+        if(arr1[2]!=arr2[2]) System.out.println(-1);*//*
+        arr1[1]=(double)arr1[1]+(double)arr2[1];
+        System.out.println(arr1[1]);*/
+
+        String [][] arr2= {{"1"}};
+        System.out.println(2+arr2[0][0]);
+
+
+
+
+
 
 
 

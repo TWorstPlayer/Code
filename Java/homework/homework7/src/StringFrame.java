@@ -2,6 +2,9 @@ import java.awt.BorderLayout;
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Objects;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
@@ -107,10 +110,60 @@ public class StringFrame extends JFrame implements ActionListener{
 
 
         }else if(btn == btnParse) {
+            //拆分为每一条
+            String[] Parse1=strContent.split("\n");
+            //每一条再拆分
+            String[][] Parse2=new String[Parse1.length][];
+            for(int i=0;i< Parse1.length;i++)Parse2[i]=Parse1[i].split("-");
+            //处理数据
+            //先找一下一共有多少种商品
+            String[] arrgood=new String[Parse1.length];
+            for(int i=0;i<Parse1.length;i++)
+            {
+               arrgood[i]=Parse2[i][0];
+            }
+            Arrays.sort(arrgood);
+
+            int count1=0;
+            for(int i=1;i<arrgood.length;i++)
+            {
+                if(!arrgood[i].equals(arrgood[i-1]))count1++;
+            }
+            if(count1!=0)count1++;
+            //上面找到有多少个商品
+            Object[][] arr=new Object[count1][3];
+            arr[0][0]=arrgood[0];
+            for(int i=1,j=0;i<arrgood.length;i++)
+            {
+                if(arrgood[i].equals(arrgood[i-1]))continue;
+                else arr[++j][0]=arrgood[i];
+            }
+
+            for(int i=0;i<count1;i++)
+            {
+                for(int j=0;j<arrgood.length;j++)
+                {
+                    if(arr[i][0].equals(Parse2[j][0]))
+                    {
+                        if(arr[i][1]==null)
+                        {
+                            arr[i][1]=Double.valueOf(Parse2[j][1]);
+                            arr[i][2]=Integer.valueOf(Parse2[j][2]);
+                        }
+                        else {
+                            arr[i][2] = (int) arr[i][2] + Integer.valueOf(Parse2[j][2]);
+                        }
+                    }
+
+                }
+            }
+            txtContent.append("         品名\t价格\t数量");
+            txtContent.append("\n");
+            for(int i=0;i<count1;i++)txtContent.append("         "+arr[i][0]+"\t"+arr[i][1]+"\t"+arr[i][2]+"\n");
+
+
 
         }else if(btn == btnSearch) {
-
-
 
         if (begin != -1) {
                 txtContent.setSelectionStart(begin);
@@ -123,7 +176,6 @@ public class StringFrame extends JFrame implements ActionListener{
             txtContent.setSelectionStart(0);
             txtContent.setSelectionEnd(0);
             txtContent.requestFocus(false);
-            System.out.println(begin);
         }
 
 
