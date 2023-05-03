@@ -87,7 +87,6 @@ public class StringFrame extends JFrame implements ActionListener{
     //在上面定义了两个静态变量
     //static int findbegin=0;
     //static String stringcompare;
-    //
     public void actionPerformed(ActionEvent e) {
 
         //如果查询的字符串和上次的不一样，findbegin=-1，代表重新从头开始查找
@@ -157,9 +156,9 @@ public class StringFrame extends JFrame implements ActionListener{
 
                 }
             }
-            txtContent.append("         品名\t价格\t数量");
+            txtContent.append("        品名\t价格\t数量");
             txtContent.append("\n");
-            for(int i=0;i<count1;i++)txtContent.append("         "+arr[i][0]+"\t"+arr[i][1]+"\t"+arr[i][2]+"\n");
+            for(int i=0;i<count1;i++)txtContent.append("        "+arr[i][0]+"\t"+arr[i][1]+"\t"+arr[i][2]+"\n");
 
 
 
@@ -177,8 +176,6 @@ public class StringFrame extends JFrame implements ActionListener{
             txtContent.setSelectionEnd(0);
             txtContent.requestFocus(false);
         }
-
-
 
 
         }else if(btn == btnReplace) {

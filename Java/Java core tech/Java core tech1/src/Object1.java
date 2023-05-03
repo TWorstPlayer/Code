@@ -287,8 +287,10 @@ public class Object1{
 
 
 import java.io.IOException;
+import java.sql.Array;
 import java.sql.SQLOutput;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Objects;
 
 public class Object1 {
@@ -420,11 +422,25 @@ public class Object1 {
         arr1[1]=(double)arr1[1]+(double)arr2[1];
         System.out.println(arr1[1]);*/
 
-        String [][] arr2= {{"1"}};
-        System.out.println(2+arr2[0][0]);
+       /* String [][] arr2= {{"1"}};
+        System.out.println(2+arr2[0][0]);*/
 
+       /* Object []arr =new Object[3];
+        arr[0]=1;
+        arr[1]=1.5;
+        arr[2]='a';
+        arr[3]="abc";
 
+        int a=1;
+        a=a+(int)arr[0];*/
 
+        //字符串数组的排序
+        //方法 Arrays.sort(arr);
+        String []arr ={"goodA","goodC","goodB","goodD","goodA","goodB"};
+        Arrays.sort(arr);
+        for (int i = 0; i <arr.length ; i++) {
+            System.out.printf(arr[i]+" ");
+        }
 
 
 
