@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7fb2a6ec-63a8-4027-a830-566b131f2d90" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/../Java core tech/Java core tech1/src/Object1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java core tech/Java core tech1/src/Object1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java core tech/out/production/Java core tech/Object1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Java core tech/out/production/Java core tech/Object1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework7/src/StringFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/homework7/src/StringFrame.java" afterDir="false" />
-    </list>
+    <list default="true" id="7fb2a6ec-63a8-4027-a830-566b131f2d90" name="更改" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
