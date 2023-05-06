@@ -1,4 +1,5 @@
 import javax.lang.model.element.NestingKind;
+import java.math.BigDecimal;
 import java.math.BigInteger;
 import java.sql.SQLOutput;
 import java.util.Random;
@@ -530,7 +531,7 @@ public class Object1 implements Cloneable{
         System.out.println(a.hashCode());
         System.out.println(abc.hashCode());*/
 
-        BigInteger a =new BigInteger("100",2); //
+       /* BigInteger a =new BigInteger("100",2); //
         System.out.println(a);                              //结果为4，意思是把二进制的100转换为十进制
 
         BigInteger a1= new BigInteger("1000");
@@ -539,9 +540,26 @@ public class Object1 implements Cloneable{
 
         BigInteger a2=BigInteger.valueOf(1000);
 
-        System.out.println(Long.MAX_VALUE);
+        System.out.println(Long.MAX_VALUE);*/
 
+        //用字符串赋值的方法得到的数据是精确的
+        BigDecimal bdl1= new BigDecimal("0.01");
+        BigDecimal bdl2= new BigDecimal("0.02");
+        System.out.println(bdl1);       //0.01
+        System.out.println(bdl2);       //0.02
+        //直接用数字得到的数据是不准的
+        BigDecimal bdl3= new BigDecimal(0.01);
+        BigDecimal bdl4= new BigDecimal(0.02);
+        System.out.println(bdl3);       //0.01000000000000000020816681711721685132943093776702880859375
+        System.out.println(bdl4);       //0.0200000000000000004163336342344337026588618755340576171875
+        //用静态方法获取
+        BigDecimal bdl5=BigDecimal.valueOf(10.0);
+        BigDecimal bdl6=BigDecimal.valueOf(10.0);
+        System.out.println(bdl5==bdl6); //结果为false  这个是new了两个新的对象
 
+        BigDecimal bdl7=BigDecimal.valueOf(10);
+        BigDecimal bdl8=BigDecimal.valueOf(10);
+        System.out.println(bdl7==bdl8); //结果为true  传递的是0-10之间的整数的话，会返回已经创建好了的对象，不会再重新new一个。
 
 
     }

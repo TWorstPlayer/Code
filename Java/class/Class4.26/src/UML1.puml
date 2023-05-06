@@ -1,0 +1,28 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+
+class tank {
++x:int
++y:int
++dir:int
+
+getX():int
++setDirection(adir:int):void
+}
+
+class GameFrame{
+-gOffScreen:Graphics
+}
+tank -->GameFrame
+GameFrame-->tankNPC
+
+class tankNPC{
++move():void
++draw(g:Graphics):void
+}
+tank<--tankNPC
+
+
+
+@enduml

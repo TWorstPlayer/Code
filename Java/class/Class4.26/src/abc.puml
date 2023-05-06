@@ -1,0 +1,27 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class FolderItem{
+-name:String
+}
+
+class File
+{
+-extension:String
+-size:int
+}
+
+class Folder{
++addFolderItem(item:FolderItem)
++removeFolderItem(item:FolderItem)
++getFolderItem(index int):FolderItem
++getNumberOfFolderItems():int
+}
+Folder-->FolderItem
+
+FolderItem<|-- File
+FolderItem<|-- Folder
+
+
+
+@enduml
