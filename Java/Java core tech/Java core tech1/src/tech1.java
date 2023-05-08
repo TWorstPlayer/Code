@@ -99,7 +99,7 @@
 //}
 //
 
-public class tech1 {
+/*public class tech1 {
 
     private String name;
     tech1(String name)
@@ -124,5 +124,31 @@ public class tech1 {
     String getName()
     {
         return name;
+    }
+}*/
+
+public class tech1{
+    private  int a;
+    private  String str;
+
+    public tech1(int a, String str) {
+        this.a = a;
+        this.str = str;
+    }
+
+    public int getA() {
+        return a;
+    }
+
+    public void setA(int a) {
+        this.a = a;
+    }
+
+    public String getStr() {
+        return str;
+    }
+
+    public void setStr(String str) {
+        this.str = str;
     }
 }

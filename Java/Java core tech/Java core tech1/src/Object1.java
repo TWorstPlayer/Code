@@ -542,7 +542,7 @@ public class Object1 implements Cloneable{
 
         System.out.println(Long.MAX_VALUE);*/
 
-        //用字符串赋值的方法得到的数据是精确的
+      /*  //用字符串赋值的方法得到的数据是精确的
         BigDecimal bdl1= new BigDecimal("0.01");
         BigDecimal bdl2= new BigDecimal("0.02");
         System.out.println(bdl1);       //0.01
@@ -559,7 +559,7 @@ public class Object1 implements Cloneable{
 
         BigDecimal bdl7=BigDecimal.valueOf(10);
         BigDecimal bdl8=BigDecimal.valueOf(10);
-        System.out.println(bdl7==bdl8); //结果为true  传递的是0-10之间的整数的话，会返回已经创建好了的对象，不会再重新new一个。
+        System.out.println(bdl7==bdl8); //结果为true  传递的是0-10之间的整数的话，会返回已经创建好了的对象，不会再重新new一个。*/
 
 
     }
