@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="coffee">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/homework8/src/coffee.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
