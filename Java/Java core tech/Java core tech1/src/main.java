@@ -21,6 +21,8 @@ public class main {
         abc c =new abc();
         ArrayList<abc>  arra= new ArrayList<>();
         arra.add(c);
-        arra.
+
     }
+
+
 }
