@@ -1,3 +1,4 @@
+/*
 public class abc extends abstract1{
     int a=1;
     public void printf1(){
@@ -9,3 +10,4 @@ public class abc extends abstract1{
         return 0;
     }
 }
+*/

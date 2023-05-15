@@ -15,13 +15,16 @@ public class TestCollection {
             Hero hero1 =heros.get(i);
             if(i%7==0){
                 heros.remove(hero1);
+                System.out.println(heros.size());
             }
+
         }
 
         // 打印信息
         for(Hero a:heros){
             System.out.println(heros.get(heros.indexOf(a)));
         }
+        System.out.println(heros.get(1));
 
     }
 }
