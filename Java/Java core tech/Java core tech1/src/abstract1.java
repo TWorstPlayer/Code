@@ -6,5 +6,6 @@ public abstract class abstract1 implements jiekou{
     public final void printf2(){
         System.out.println("abc");
     }
+    final int b=3;
 
 }
