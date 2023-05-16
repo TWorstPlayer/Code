@@ -127,7 +127,7 @@
     }
 }*/
 
-public class tech1{
+/*public class tech1{
     private  int a;
     private  String str;
 
@@ -150,5 +150,16 @@ public class tech1{
 
     public void setStr(String str) {
         this.str = str;
+    }
+}*/
+
+
+public class tech1{
+    public static void main(String[] args) {
+        Object1 a =new Object1();
+        Object1.Object2 obj2 =a.new Object2();
+        System.out.println(obj2.a);
+        Object1.Object2 obj21= new Object1().new Object2();
+        Object1.Object2 obj22= a.new Object2();
     }
 }

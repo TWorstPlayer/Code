@@ -5,8 +5,8 @@ import java.math.BigInteger;
 import java.sql.SQLOutput;
 import java.util.Random;
 
-*/
-/*
+
+
 //public class Mainclass {
 //
 //    public static void main(String[] args) {
@@ -178,14 +178,14 @@ import java.util.Random;
 //    int a;
 //}
 
-*//*
-*/
-/*
 
-*//*
 
-*/
-/*
+
+
+
+
+
+
 import java.util.Vector;
 
 public class Object1 {
@@ -214,13 +214,13 @@ public class Object1 {
 
     }
 }
-*//*
-*/
-/*
-*//*
 
-*/
-/*
+
+
+
+
+
+
 
 
 
@@ -242,45 +242,47 @@ import java.util.Scanner;
 public class Object1{
 
     public static void main(String[] args) throws IOException {
-        *//*
-*/
-/*
 
-*//*
 
-*/
-/*Scanner input1 =new Scanner(Path.of("D:\\桌面\\code\\Java\\Java core tech\\Java core tech1\\abc.txt"), StandardCharsets.UTF_8);
+
+
+
+
+
+
+Scanner input1 =new Scanner(Path.of("D:\\桌面\\code\\Java\\Java core tech\\Java core tech1\\abc.txt"), StandardCharsets.UTF_8);
         Scanner input2 =new Scanner(System.in);
 
         int a =input1.nextInt();
         String str = input1.next();
 
         System.out.println(a);
-        System.out.println(str);*//*
-*/
-/*
-*//*
-
-*/
-/*
+        System.out.println(str);
 
 
-      *//*
-*/
-/*
 
-*//*
 
-*/
-/*  String a= "acbnd";
+
+
+
+
+
+
+
+
+
+
+
+
+  String a= "acbnd";
         System.out.printf("%8s",a);
-*//*
-*/
-/*
-*//*
 
-*/
-/*
+
+
+
+
+
+
 
         //System.out.printf("%tc",new Date());
 
@@ -289,14 +291,15 @@ public class Object1{
         //for each 的用法
         //直接遍历整个数组，对比于另外一种用for遍历数组的写法来说，这一种写法可以不用管边界元素，防止越界
 
-       *//*
-*/
-/*
 
-*//*
 
-*/
-/* int []arr = new int[4];
+
+
+
+
+
+
+ int []arr = new int[4];
         arr[0]=1;
         arr[1]=11;
         arr[2]=111;
@@ -305,25 +308,26 @@ public class Object1{
         for(int a:arr)
         {
             System.out.println(a);
-        }*//*
-*/
-/*
-*//*
-
-*/
-/*
+        }
 
 
 
 
-    *//*
-*/
-/*
 
-*//*
 
-*/
-/*    int []arr = new int[4];
+
+
+
+
+
+
+
+
+
+
+
+
+    int []arr = new int[4];
         arr[0]=81;
         arr[1]=1;
         arr[2]=111;
@@ -333,13 +337,13 @@ public class Object1{
         for(int a:arr)
         {
             System.out.println(a);
-        }*//*
-*/
-/*
-*//*
+        }
 
-*/
-/*
+
+
+
+
+
 
 
 
@@ -351,9 +355,9 @@ public class Object1{
     }
 }
 
-*//*
-*/
-/*
+
+
+
 
 
 
@@ -368,10 +372,11 @@ public class Object1 {
     private static int []arr2=new int[8];
 
     public static void main(String[] args) throws IOException {
-   *//*
 
-*/
-/*     //字符串的四种构造方法
+
+
+
+     //字符串的四种构造方法
         //1：使用直接赋值的方式得到字符串
         String str1= "abc";
         System.out.println(str1);
@@ -394,57 +399,61 @@ public class Object1 {
         byte []arr2={97,98,99};
         String str5=new String(arr2);
         System.out.println(str5);
-        //用int数组不行*//*
-*/
-/*
+        //用int数组不行
 
 
 
 
-        *//*
 
-*/
-/*String s1 ="abc";
+
+
+
+
+
+String s1 ="abc";
         String s2 ="ab";
         String s3=s2+"c";
         System.out.println(s1==s3);//结果是false
         //JDK8以前，字符串拼接是底层产生一个StringBuilder对象，然后使用其append方法进行拼接
         //然后再用toString方法转换回String类型，而toString方法的底层是new了一个字符串，数据存储在堆区里面
         //在JDK8以后，系统预估字符串大小，然后把字符串存在数组里面，此时也是产生一个新的字符串
-        //而s1这种直接赋值法是在串区存储，与s3的地址是不同的，所以结果是false*//*
-*/
-/*
+        //而s1这种直接赋值法是在串区存储，与s3的地址是不同的，所以结果是false
 
 
-        *//*
 
-*/
-/*String s1 ="abc";
+
+
+
+
+
+String s1 ="abc";
         String s2="a"+"b"+"c";
         System.out.println(s1==s2);//结果是true
         System.out.println(s1.hashCode());//打印s1的地址，结果为96354
         System.out.println(s2.hashCode());//打印s2的地址，结果也为96354，说明了s2和s1指向同一个字符串
-        //这种情况下没有变量，在编译过程中存在常量优化机制，直接把a，b，c接在一起成为abc然后就找到串池里面的abc*//*
-*/
-/*
+        //这种情况下没有变量，在编译过程中存在常量优化机制，直接把a，b，c接在一起成为abc然后就找到串池里面的abc
 
 
-     *//*
 
-*/
-/*   StringBuilder sb =new StringBuilder("ac");
+
+
+
+
+
+   StringBuilder sb =new StringBuilder("ac");
         System.out.println(sb.capacity());
         sb.append("aaaaaaaaaaaaaaaaa");
-        System.out.println(sb.capacity());*//*
-*/
-/*
+        System.out.println(sb.capacity());
 
 
 
-        *//*
 
-*/
-/*ArrayList<String> arr =new ArrayList<>();
+
+
+
+
+
+ArrayList<String> arr =new ArrayList<>();
         arr.add("Abc");
         arr.add(" Asdasad");
         arr.add(" Asdasad");
@@ -467,51 +476,55 @@ public class Object1 {
         arr1.add(1);
         arr1.add(2);
         System.out.println(arr1.get(0));
-*//*
-*/
-/*
 
-        *//*
 
-*/
-/*int []arr =new int[8];
+
+
+
+
+
+
+int []arr =new int[8];
         for (int i = 0; i <8 ; i++) {
             System.out.print(arr[i]);
             System.out.print(" ");
             System.out.print(arr2[i]);
             System.out.print(" ");
-        }*//*
-*/
-/*
+        }
 
 
-      *//*
-
-*/
-/*  Runtime.getRuntime().exec("shutdown -s -t 3600");//设定3600秒后自动关机
-        Runtime.getRuntime().exec("shutdown -a");//取消自动关机*//*
-*/
-/*
 
 
-  *//*
 
-*/
-/*      String str ="abc";
+
+
+
+  Runtime.getRuntime().exec("shutdown -s -t 3600");//设定3600秒后自动关机
+        Runtime.getRuntime().exec("shutdown -a");//取消自动关机
+
+
+
+
+
+
+
+
+      String str ="abc";
         if(str.charAt(0)=='a')
         {
             System.out.println(1);
         }
 
-*//*
-*/
-/*
 
 
-      *//*
 
-*/
-/*  //正则表达式
+
+
+
+
+
+
+  //正则表达式
         //1：字符类正则表达式（只匹配一个字符）
         System.out.println("字符类正则表达式");
         System.out.println("a".matches("[a-d]"));          //a-d                 结果：true
@@ -524,15 +537,16 @@ public class Object1 {
         System.out.println("a".matches("."));
 
         System.out.println("1".matches("\\d"));
-        System.out.println("a".matches("\\d"));*//*
-*/
-/*
+        System.out.println("a".matches("\\d"));
 
 
-      *//*
 
-*/
-/*  Object[] arr1 =new Object[3];
+
+
+
+
+
+  Object[] arr1 =new Object[3];
         Object[] arr2 =new Object[3];
 
         arr1[0]="abc";
@@ -544,110 +558,120 @@ public class Object1 {
         arr1[2]='a';
         arr2[2]='b';
 
-      *//*
-*/
-/*
-*//*
 
-*/
-/*  if(arr1[0]==arr2[0]) System.out.println(1);
+
+
+
+
+
+
+  if(arr1[0]==arr2[0]) System.out.println(1);
         if(arr1[1]!=arr2[1]) System.out.println(-1);
-        if(arr1[2]!=arr2[2]) System.out.println(-1);*//*
-*/
-/*
-*//*
+        if(arr1[2]!=arr2[2]) System.out.println(-1);
 
-*/
-/*
+
+
+
+
+
         arr1[1]=(double)arr1[1]+(double)arr2[1];
-        System.out.println(arr1[1]);*//*
-*/
-/*
+        System.out.println(arr1[1]);
 
 
-       *//*
-
-*/
-/* String [][] arr2= {{"1"}};
-        System.out.println(2+arr2[0][0]);*//*
-*/
-/*
 
 
-       *//*
 
-*/
-/* Object []arr =new Object[3];
+
+
+
+ String [][] arr2= {{"1"}};
+        System.out.println(2+arr2[0][0]);
+
+
+
+
+
+
+
+
+ Object []arr =new Object[3];
         arr[0]=1;
         arr[1]=1.5;
         arr[2]='a';
         arr[3]="abc";
 
         int a=1;
-        a=a+(int)arr[0];*//*
-*/
-/*
+        a=a+(int)arr[0];
+
+
 
 
         //字符串数组的排序
         //方法 Arrays.sort(arr);
-    *//*
 
-*/
-/*    String []arr ={"goodA","goodC","goodB","goodD","goodA","goodB"};
+
+
+
+    String []arr ={"goodA","goodC","goodB","goodD","goodA","goodB"};
         Arrays.sort(arr);
         for (int i = 0; i <arr.length ; i++) {
             System.out.printf(arr[i]+" ");
-        }*//*
-*/
-/*
+        }
+
+
 
 
     }
-}*//*
+}
 
 public class Object1 implements Cloneable{
 
 
     public static void main(String[] args) {
-     */
-/*   String a= "abbc";
+
+
+   String a= "abbc";
         String b= "abbc";
         System.out.println(a);
         System.out.println(a.hashCode());
-        System.out.println(b.hashCode());*//*
-
-   */
-/*     String a=null;
-        String b="abc";
-        System.out.println(b.equals(a));
-        System.out.println(a==b);
-*//*
+        System.out.println(b.hashCode());
 
 
-        */
-/*BigInteger a = new BigInteger("99999999999999999999999999999999999999999999999999999999999999999999999");
-        System.out.println(a);*//*
+
+   //  String a=null;
+      //  String b="abc";
+       // System.out.println(b.equals(a));
+       // System.out.println(a==b);
 
 
-       */
-/* for (int i = 0; i < 100; i++) {
+
+
+
+ //BigInteger a = new BigInteger("99999999999999999999999999999999999999999999999999999999999999999999999");
+        //System.out.println(a);
+
+
+
+
+ for (int i = 0; i < 100; i++) {
             System.out.println(new BigInteger(4,new Random()));
-        }*//*
+        }
 
-*/
-/*        BigInteger a = new BigInteger("3");
+
+
+        BigInteger a = new BigInteger("3");
         BigInteger ab = new BigInteger("4");
         BigInteger abc = new BigInteger("3");
         System.out.println(a);
         System.out.println(ab);
         System.out.println(a==abc);
         System.out.println(a.hashCode());
-        System.out.println(abc.hashCode());*//*
+        System.out.println(abc.hashCode());
 
 
-       */
-/* BigInteger a =new BigInteger("100",2); //
+
+
+ BigInteger a =new BigInteger("100",2); //
         System.out.println(a);                              //结果为4，意思是把二进制的100转换为十进制
 
         BigInteger a1= new BigInteger("1000");
@@ -656,11 +680,12 @@ public class Object1 implements Cloneable{
 
         BigInteger a2=BigInteger.valueOf(1000);
 
-        System.out.println(Long.MAX_VALUE);*//*
+        System.out.println(Long.MAX_VALUE);
 
 
-      */
-/*  //用字符串赋值的方法得到的数据是精确的
+
+
+  //用字符串赋值的方法得到的数据是精确的
         BigDecimal bdl1= new BigDecimal("0.01");
         BigDecimal bdl2= new BigDecimal("0.02");
         System.out.println(bdl1);       //0.01
@@ -677,7 +702,7 @@ public class Object1 implements Cloneable{
 
         BigDecimal bdl7=BigDecimal.valueOf(10);
         BigDecimal bdl8=BigDecimal.valueOf(10);
-        System.out.println(bdl7==bdl8); //结果为true  传递的是0-10之间的整数的话，会返回已经创建好了的对象，不会再重新new一个。*//*
+        System.out.println(bdl7==bdl8); //结果为true  传递的是0-10之间的整数的话，会返回已经创建好了的对象，不会再重新new一个。
 
 
 
@@ -686,15 +711,18 @@ public class Object1 implements Cloneable{
 
 
 }
-*/
+
+
 
 
 import java.lang.reflect.Array;
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collection;
 import java.util.Comparator;
 
 public class Object1 {
-  /*  public static void main(String[] args) {
+  public static void main(String[] args) {
         Integer []arr= {3,2,1,4,6,8};
        // Arrays.sort(arr);
         System.out.println(Arrays.toString(arr));
@@ -706,10 +734,11 @@ public class Object1 {
             }
         });
         System.out.println(Arrays.toString(arr));
-    }*/
+    }
 
 
-    public static void main(String[] args) {
+
+public static void main(String[] args) {
         char []arr={'a','b','c'};
         int  []arr1={2,3,2,1,4,5};
         for (int i:arr1
@@ -718,5 +747,101 @@ public class Object1 {
 
         }
     }
+
+  public static void main(String[] args) {
+        Collection<String> arr= new ArrayList<>();
+
+        arr.add("adasd");
+        arr.add("adasd");
+        boolean a=arr.add("adasd");
+        System.out.println(a);
+
+    }
+
+
+}
+
+
+
+ */
+/*public class Object1<T> {
+    private T value;
+
+
+    public Object1(T value) {
+        this.value = value;
+    }
+    public T getValue() {
+        return value;
+    }
+    public void setValue(T value) {
+        this.value = value;
+    }
+}*/
+/*public class Object1<A> {
+    private A value;
+
+
+    public Object1(A value) {
+        this.value = value;
+    }
+    public A getValue() {
+        return value;
+    }
+    public void setValue(A value) {
+        this.value = value;
+    }
+}*/
+
+import java.util.*;
+
+public class Object1{
+
+    //public static void main(String[] args) {
+        /*int a=3;
+        Integer a1=3;
+        System.out.println(a1.getClass());
+        int a12=3;*/
+
+        //set里面的Hashset 不能存相同的数据
+        /*HashSet<String> arr=new HashSet<>();
+        arr.add("abc");
+        boolean a=arr.add("abc");
+        System.out.println(a);              //结果为false*/
+
+
+        /*String[] arr= new String[4];
+        arr[0]="a";
+        arr[0]="b";
+        arr[0]="c";
+        arr[0]="d";
+
+        Iterator<String> I1= Arrays.stream(arr).iterator();
+        String str1=I1.next();
+        System.out.println(str1);*/
+
+
+       /* Collection<String> arr1=new ArrayList<>();
+        arr1.add("a");
+        arr1.add("b");
+        arr1.add("c");
+        arr1.add("d");
+
+        Iterator<String> I1=arr1.iterator();
+        var str1=I1.next();
+        System.out.println(str1);*/
+
+        /*Scanner stdIN =new Scanner(System.in);
+        System.out.println(stdIN.next());*/
+
+        /*Random ran =new Random();
+        int a=ran.nextInt(10);
+        System.out.println(a);*/
+
+        public class Object2{
+            public int a=1;
+
+        }
+
 
 }

@@ -1,3 +1,4 @@
+/*
 public class Hero {
     public String name;
     public Hero() {
@@ -15,4 +16,4 @@ public class Hero {
     public String toString() {
         return name;
     }
-}
+}*/
