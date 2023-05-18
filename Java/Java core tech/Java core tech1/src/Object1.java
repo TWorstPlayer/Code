@@ -658,7 +658,6 @@ public class Object1 {
        // Arrays.sort(arr);
         System.out.println(Arrays.toString(arr));
         Arrays.sort(arr,new Comparator<Integer>(){
-
             @Override
             public int compare(Integer o1, Integer o2) {
                 return o1-o2;
@@ -725,6 +724,7 @@ public static void main(String[] args) {
 }*/
 
 import java.util.*;
+import java.util.function.Consumer;
 
 public class Object1{
 
@@ -837,7 +837,7 @@ public class Object1{
 
   //  }
 
-    static  int i ;
+    //static  int i ;
 
     public static void main(String[] args) {
         /*System.out.println(i);*/
@@ -852,7 +852,112 @@ public class Object1{
         }*/
 
 
+       /* ArrayList<String> strarr =new ArrayList<>();
+
+        strarr.add("b");
+        strarr.add("a");
+        strarr.add(2,"c");//在指定处添加元素，并把原本的向后顺延一位//但他的前面必须是有元素才行
+                                            //如果在index 3 处添加 则在index 2处必须要有元素才行
+        strarr.set(0,"abc");//把指定处的元素更改为对应元素
+       *//* for (String s : strarr) {
+            System.out.println(s);
+        }*//*
+
+
+        //用forEach来进行集合的遍历
+        strarr.forEach(new Consumer<String>() {
+            @Override
+            public void accept(String s) {
+                System.out.println(s);
+            }
+        });
+
+
+    }*/
+
+
+        
+        /*Collection<String> strarr= new ArrayList<>();
+        strarr.add("abd");
+        strarr.add("abd");
+        strarr.add("abd");
+        strarr.add("abd");
+        //forEach是集合的方法，需要通过集合的实例对象去调用，不能直接调用
+        strarr.forEach(s-> System.out.println(s));
+
+        List<Integer> list =new ArrayList<>();
+        list.add(1);
+        list.add(2);
+        list.add(3);
+
+        list.remove(1);
+
+        Integer a=3;
+        int b=4;*/
+        /*Integer a1=4;
+        int a2=a1;
+        System.out.println(a2);*/
+
+        /*ArrayList<String> arr =new ArrayList<>();
+        arr.add("a");
+        arr.add("b");
+        arr.add("c");
+
+        Iterator<String> arrite =arr.iterator();*/
+        //删除指向的后面的元素，但此时指针指向最后面，所以会出错
+        //arrite.remove();
+
+
+
+        ////List系列集合的五种遍历方式
+        //1：迭代器
+     /*  while(arrite.hasNext()){
+           String a = arrite.next();
+        System.out.println(a);
+       }*/
+
+       //2：增强for
+        /*for (String str:arr
+             ) {
+            System.out.println(str);
+
+        }*/
+
+        //3：Lamba表达式
+        //arr.forEach(str-> System.out.println(str));
+
+        //4:普通for循环
+        /*for (int i = 0; i < arr.size(); i++) {
+            System.out.println(arr.get(i));
+        }*/
+
+        //5:列表迭代器
+        //特殊点，可以在遍历的过程中往里面添加元素
+        /*ListIterator arrltie=arr.listIterator();
+        while(arrltie.hasNext()) System.out.println(arrltie.next());*/
+
+        /*ArrayList<String> arr=new ArrayList<>();
+        System.out.println(arr.size());
+        arr.add("A");
+        System.out.println(arr.);*/
+
+        /*int a=5;
+        Object a1=(Object) a;
+        System.out.println(a1);
+        ArrayList<Integer> arr= new ArrayList<>();*/
+
+        /*ArrayList<Object> arr =new ArrayList<>();
+        arr.add("A");
+        arr.add(1);
+        arr.add("b");*/
+
+        /*MyArrayList arr= new MyArrayList();
+        arr.add("ads12121a");*/
+
     }
 
+    public static <E> void abc(ArrayList<E> list)
+    {
 
+    }
 }
