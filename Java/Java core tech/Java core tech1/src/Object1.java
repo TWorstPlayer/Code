@@ -839,7 +839,7 @@ public class Object1{
 
     //static  int i ;
 
-    public static void main(String[] args) {
+    //public static void main(String[] args) {
         /*System.out.println(i);*/
        /* System.out.println(1+"10"+3+"2");
         int _213=3;
@@ -954,10 +954,15 @@ public class Object1{
         /*MyArrayList arr= new MyArrayList();
         arr.add("ads12121a");*/
 
-    }
+    //}
 
-    public static <E> void abc(ArrayList<E> list)
+    /*public static <E> void abc(ArrayList<E> list)
     {
 
+    }*/
+    public static void main(String[] args) {
+        int a=4;
+        System.out.println("aasd"+a);
+        System.out.println('s'+a);
     }
 }
