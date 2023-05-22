@@ -154,7 +154,10 @@
 }*/
 
 
+<<<<<<< HEAD
 /*
+=======
+>>>>>>> 8dd169f622fad6524f3e4c0e0b0ba381f2ebc867
 public class tech1{
     public static void main(String[] args) {
         Object1 a =new Object1();
@@ -163,4 +166,8 @@ public class tech1{
         Object1.Object2 obj21= new Object1().new Object2();
         Object1.Object2 obj22= a.new Object2();
     }
+<<<<<<< HEAD
 }*/
+=======
+}
+>>>>>>> 8dd169f622fad6524f3e4c0e0b0ba381f2ebc867

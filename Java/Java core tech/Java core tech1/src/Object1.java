@@ -182,6 +182,13 @@ import java.util.Random;
 
 
 
+<<<<<<< HEAD
+=======
+
+
+
+
+>>>>>>> 8dd169f622fad6524f3e4c0e0b0ba381f2ebc867
 import java.util.Vector;
 
 public class Object1 {
@@ -211,6 +218,15 @@ public class Object1 {
     }
 }
 
+<<<<<<< HEAD
+=======
+
+
+
+
+
+
+>>>>>>> 8dd169f622fad6524f3e4c0e0b0ba381f2ebc867
 
 
 
@@ -250,9 +266,35 @@ Scanner input1 =new Scanner(Path.of("D:\\桌面\\code\\Java\\Java core tech\\Jav
         System.out.println(str);
 
 
+<<<<<<< HEAD
   String a= "acbnd";
         System.out.printf("%8s",a);
 
+=======
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  String a= "acbnd";
+        System.out.printf("%8s",a);
+
+
+
+
+
+
+
+>>>>>>> 8dd169f622fad6524f3e4c0e0b0ba381f2ebc867
 
         //System.out.printf("%tc",new Date());
         //for each 的用法
@@ -260,6 +302,15 @@ Scanner input1 =new Scanner(Path.of("D:\\桌面\\code\\Java\\Java core tech\\Jav
 
 
 
+<<<<<<< HEAD
+=======
+
+
+
+
+
+
+>>>>>>> 8dd169f622fad6524f3e4c0e0b0ba381f2ebc867
  int []arr = new int[4];
         arr[0]=1;
         arr[1]=11;
@@ -273,6 +324,24 @@ Scanner input1 =new Scanner(Path.of("D:\\桌面\\code\\Java\\Java core tech\\Jav
 
 
 
+<<<<<<< HEAD
+=======
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> 8dd169f622fad6524f3e4c0e0b0ba381f2ebc867
     int []arr = new int[4];
         arr[0]=81;
         arr[1]=1;
@@ -284,6 +353,17 @@ Scanner input1 =new Scanner(Path.of("D:\\桌面\\code\\Java\\Java core tech\\Jav
         {
             System.out.println(a);
         }
+<<<<<<< HEAD
+=======
+
+
+
+
+
+
+
+
+>>>>>>> 8dd169f622fad6524f3e4c0e0b0ba381f2ebc867
 
         var a=1;
         System.out.println(a);
@@ -387,6 +467,13 @@ String s1 ="abc";
 
 
 
+<<<<<<< HEAD
+=======
+
+
+
+
+>>>>>>> 8dd169f622fad6524f3e4c0e0b0ba381f2ebc867
 ArrayList<String> arr =new ArrayList<>();
         arr.add("Abc");
         arr.add(" Asdasad");
@@ -525,6 +612,12 @@ int []arr =new int[8];
 
 
 
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> 8dd169f622fad6524f3e4c0e0b0ba381f2ebc867
  Object []arr =new Object[3];
         arr[0]=1;
         arr[1]=1.5;
@@ -724,7 +817,10 @@ public static void main(String[] args) {
 }*/
 
 import java.util.*;
+<<<<<<< HEAD
 import java.util.function.Consumer;
+=======
+>>>>>>> 8dd169f622fad6524f3e4c0e0b0ba381f2ebc867
 
 public class Object1{
 
@@ -769,6 +865,7 @@ public class Object1{
         int a=ran.nextInt(10);
         System.out.println(a);*/
 
+<<<<<<< HEAD
       /*  public class Object2{
             public int a=1;
 
@@ -965,4 +1062,12 @@ public class Object1{
         System.out.println("aasd"+a);
         System.out.println('s'+a);
     }
+=======
+        public class Object2{
+            public int a=1;
+
+        }
+
+
+>>>>>>> 8dd169f622fad6524f3e4c0e0b0ba381f2ebc867
 }
