@@ -27,9 +27,9 @@ public class Animation {
 			e1.printStackTrace();
 		}
 	}
-	public void draw(Graphics g) {		
-		g.drawImage(img, x-17, y-17, x+17, y+17, 
-				imgX+frame*34, imgY, 
+	public void draw(Graphics g) {
+		g.drawImage(img, x-17, y-17, x+17, y+17,
+				imgX+frame*34, imgY,
 				imgX+34+frame*34, imgY+34,null);
 		frame++;
 	}

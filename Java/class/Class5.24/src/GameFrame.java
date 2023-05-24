@@ -14,32 +14,42 @@ import javax.swing.JFrame;
 public class GameFrame extends JFrame implements KeyListener{
 	private static final int WIDTH=500;
 	private static final int HEIGHT=300;
-	private Tank mainTank;
-	private ArrayList<TankNPC> tanks=new ArrayList<>();
+	private ITank mainTank;
+	private ArrayList<ITank> tanks=new ArrayList<>();
 	private ArrayList<Bullet> bullets=new ArrayList<>();
 	private ArrayList<Bullet> NPCbullets=new ArrayList<>();
 	private ArrayList<Animation> animations = new ArrayList<>();
 	private Image offScreenImage = null;
 	private Graphics gOffScreen = null;
+	private ICreateStrategy createStrategy;
+	public void setStrategy(ICreateStrategy obj) {
+		createStrategy = obj;
+	}
 	public GameFrame() {
-
-		//这里是设置面板
+		
+	
 		setTitle("坦克大战");
 		setSize(WIDTH,HEIGHT);
 		setLocation(200, 100);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-
+		
 		mainTank = new Tank(100,100);
+		mainTank = new DcrBloodTank(mainTank);
+		mainTank = new DcrStarTank(mainTank);
 		tanks.add(new TankNPC(200,100));
-
-		setVisible(true);
-		this.addKeyListener(this);
-
+			
+			
+		
+					
+	}	
+	public void start() {
+		setVisible(true);		
+		this.addKeyListener(this);	
 		Thread gameThread = new Thread(new MyThread());
-		gameThread.start();
+		gameThread.start();	
+		
 	}
 
-	//这里这个是用双缓冲技术来绘图
 	public void paint(Graphics g) {
 		if(gOffScreen == null) {
 			offScreenImage = this.createImage(WIDTH,HEIGHT);
@@ -47,21 +57,16 @@ public class GameFrame extends JFrame implements KeyListener{
 		}
 		gOffScreen.setColor(Color.BLACK);
 		gOffScreen.fillRect(0,0,WIDTH,HEIGHT);
-
+	
 		mainTank.draw(gOffScreen);
-		//绘制NPC坦克
-		for(TankNPC tank:tanks) {
+		for(ITank tank:tanks) {
 			tank.draw(gOffScreen);
 		}
-		//绘制NPC坦克的炮弹
+		for(Bullet bullet:bullets) 
+			bullet.draw(gOffScreen);
 		for(Bullet bullet:NPCbullets)
 			bullet.draw(gOffScreen);
-		//绘制玩家坦克的炮弹
-		for(Bullet bullet:bullets)
-			bullet.draw(gOffScreen);
-		//炮弹爆炸动画
 		for(int i=animations.size()-1;i>=0;i--) {
-			//get方法是Arraylist里面的一个方法
 			Animation ani = animations.get(i);
 			if(ani.isVisible())
 				ani.draw(gOffScreen);
@@ -70,11 +75,11 @@ public class GameFrame extends JFrame implements KeyListener{
 		}
 		g.drawImage(offScreenImage, 0, 0, WIDTH,HEIGHT,null);
 	}
-
+	
 	@Override
 	public void keyTyped(KeyEvent e) {
 		// TODO Auto-generated method stub
-
+		
 	}
 	@Override
 	public void keyPressed(KeyEvent e) {
@@ -82,31 +87,30 @@ public class GameFrame extends JFrame implements KeyListener{
 		int key = e.getKeyCode();
 		int dir=0;
 		Bullet bullet;
-		//更改setDirection的参数，相当于更改了玩家坦克的方向
 		switch(key) {
-			case KeyEvent.VK_UP:
-				mainTank.setDirection(Tank.UP);break;
-			case KeyEvent.VK_RIGHT:
-				mainTank.setDirection(Tank.RIGHT);break;
-			case KeyEvent.VK_DOWN:
-				mainTank.setDirection(Tank.DOWN);break;
-			case KeyEvent.VK_LEFT:
-				mainTank.setDirection(Tank.LEFT);break;
-			case KeyEvent.VK_SPACE:
-				bullet = mainTank.fire();
-				if(bullet != null)
-					bullets.add(bullet);
-				break;
+		case KeyEvent.VK_UP:   
+			mainTank.setDirection(Tank.UP);break;
+		case KeyEvent.VK_RIGHT:
+			mainTank.setDirection(Tank.RIGHT);break;
+		case KeyEvent.VK_DOWN: 
+			mainTank.setDirection(Tank.DOWN);break;
+		case KeyEvent.VK_LEFT: 
+			mainTank.setDirection(Tank.LEFT);break;
+		case KeyEvent.VK_SPACE: 
+			bullet = mainTank.fire();
+			if(bullet != null)
+				bullets.add(bullet);
+			break;
 		}
-
+		
 	}
 	@Override
 	public void keyReleased(KeyEvent e) {
 		// TODO Auto-generated method stub
-
+		
 	}
-
-	private class MyThread implements Runnable{
+	
+	private class MyThread implements Runnable,IAnimationFinishObserver{
 
 		@Override
 		public void run() {
@@ -115,35 +119,32 @@ public class GameFrame extends JFrame implements KeyListener{
 			Random random = new Random();
 			// TODO Auto-generated method stub
 			while(true) {
-				//
 				mainTank.move();
-				//随机添加NPC坦克
-				if(random.nextInt(10) ==1) {
-					tanks.add(new TankNPC(pos[random.nextInt(3)],100));
+				if(createStrategy != null) {
+					ITank atank = createStrategy.createTank();
+					if(atank != null)
+						tanks.add(atank);
 				}
-				for(TankNPC tank:tanks) {
-					//NPC坦克随机向不同方向移动
+//				if(random.nextInt(10) ==1) {
+//					tanks.add(new TankNPC(pos[random.nextInt(3)],100));
+//				}
+				for(ITank tank:tanks) {
 					tank.move();
-					//NPC坦克随机发射炮弹
 					if(random.nextInt(20) == 1) {
-						b = tank.fire();
+						b = tank.fire();						
 						if(b != null)
 							NPCbullets.add(b);
 					}
 				}
 				Bullet bullet;
-				TankNPC tank;
+				ITank tank;
 				for(int i=bullets.size()-1;i>=0;i--) {
 					bullet=bullets.get(i);
 					bullet.move();
-					//判断玩家坦克的炮弹是否碰到边界或者碰到NPC坦克
 					if(bullet.isClick(15, 38,WIDTH-15,HEIGHT-15)) {
-						//如果碰到边界，添加一个爆炸动画
-						//并且移除该炮弹
 						animations.add(bullet.explore());
 						bullets.remove(i);
 					}else {
-						//如果碰到NPC坦克，添加一个爆炸动画并且移除这个坦克
 						for(int j=tanks.size()-1;j>=0;j--) {
 							tank = tanks.get(j);
 							if(bullet.isClick(tank)) {
@@ -155,38 +156,44 @@ public class GameFrame extends JFrame implements KeyListener{
 						}
 					}
 				}
-
-				//判断NPC坦克的炮弹是否碰到边界或者碰到玩家坦克
 				for(int i=NPCbullets.size()-1;i>=0;i--) {
 					bullet=NPCbullets.get(i);
 					bullet.move();
 					if(bullet.isClick(15, 38,WIDTH-15,HEIGHT-15)) {
-						//如果碰到边界，添加一个爆炸动画
-						//并且移除该炮弹
 						animations.add(bullet.explore());
 						NPCbullets.remove(i);
-					}else if(bullet.isClick(mainTank)) {
-						//如果碰到玩家坦克，添加一个爆炸动画
-						//因为玩家坦克不是在一个Arraylist的数组里面，所以无法像NPC坦克一样直接移除
-						//所以采取把玩家坦克位置设置到看不到的地方
-						animations.add(mainTank.explore());
-						mainTank.setX(-1000);
+					}else if(bullet.isClick(mainTank)) {						
+						EtnkAnimation am1 = mainTank.explore();
+						am1.addListener(()->{
+							RebirthAnimation obj = new RebirthAnimation(100,100);
+							obj.addListener(this);
+							animations.add(obj);}
+						);
+						animations.add(am1);
+						mainTank.setLocation(-1000,-1000);
+						
 					}
 				}
-				repaint();
+				repaint();			
 				try {
 					Thread.sleep(100);
 				} catch (InterruptedException e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
-			}
+			}		
 		}
 
+		@Override
+		public void doSomething() {
+			// TODO Auto-generated method stub
+			mainTank.setLocation(100,100);
+		}
+		
 	}
 
 }
 /*
  * 坦克可以发射炮弹，炮弹绘制在窗体上，按坦克的方向前进，以坦克两倍的速度移动。
- *
+ * 
  * */
