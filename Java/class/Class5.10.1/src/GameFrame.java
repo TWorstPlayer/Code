@@ -23,7 +23,7 @@ public class GameFrame extends JFrame implements KeyListener{
 	private Graphics gOffScreen = null;
 	public GameFrame() {
 		
-	//这里是设置面板
+	
 		setTitle("坦克大战");
 		setSize(WIDTH,HEIGHT);
 		setLocation(200, 100);
@@ -59,9 +59,8 @@ public class GameFrame extends JFrame implements KeyListener{
 		//绘制玩家坦克的炮弹
 		for(Bullet bullet:bullets) 
 			bullet.draw(gOffScreen);
-		//炮弹爆炸动画
+
 		for(int i=animations.size()-1;i>=0;i--) {
-			//get方法是Arraylist里面的一个方法
 			Animation ani = animations.get(i);
 			if(ani.isVisible())
 				ani.draw(gOffScreen);
@@ -82,7 +81,6 @@ public class GameFrame extends JFrame implements KeyListener{
 		int key = e.getKeyCode();
 		int dir=0;
 		Bullet bullet;
-		//更改setDirection的参数，相当于更改了玩家坦克的方向
 		switch(key) {
 		case KeyEvent.VK_UP:   
 			mainTank.setDirection(Tank.UP);break;
@@ -115,16 +113,12 @@ public class GameFrame extends JFrame implements KeyListener{
 			Random random = new Random();
 			// TODO Auto-generated method stub
 			while(true) {
-				//
 				mainTank.move();
-				//随机添加NPC坦克
 				if(random.nextInt(10) ==1) {
 					tanks.add(new TankNPC(pos[random.nextInt(3)],100));
 				}
 				for(TankNPC tank:tanks) {
-					//NPC坦克随机向不同方向移动
 					tank.move();
-					//NPC坦克随机发射炮弹
 					if(random.nextInt(20) == 1) {
 						b = tank.fire();						
 						if(b != null)
@@ -136,14 +130,10 @@ public class GameFrame extends JFrame implements KeyListener{
 				for(int i=bullets.size()-1;i>=0;i--) {
 					bullet=bullets.get(i);
 					bullet.move();
-					//判断玩家坦克的炮弹是否碰到边界或者碰到NPC坦克
 					if(bullet.isClick(15, 38,WIDTH-15,HEIGHT-15)) {
-						//如果碰到边界，添加一个爆炸动画
-						//并且移除该炮弹
 						animations.add(bullet.explore());
 						bullets.remove(i);
 					}else {
-						//如果碰到NPC坦克，添加一个爆炸动画并且移除这个坦克
 						for(int j=tanks.size()-1;j>=0;j--) {
 							tank = tanks.get(j);
 							if(bullet.isClick(tank)) {
@@ -155,20 +145,13 @@ public class GameFrame extends JFrame implements KeyListener{
 						}
 					}
 				}
-
-				//判断NPC坦克的炮弹是否碰到边界或者碰到玩家坦克
 				for(int i=NPCbullets.size()-1;i>=0;i--) {
 					bullet=NPCbullets.get(i);
 					bullet.move();
 					if(bullet.isClick(15, 38,WIDTH-15,HEIGHT-15)) {
-						//如果碰到边界，添加一个爆炸动画
-						//并且移除该炮弹
 						animations.add(bullet.explore());
 						NPCbullets.remove(i);
 					}else if(bullet.isClick(mainTank)) {
-						//如果碰到玩家坦克，添加一个爆炸动画
-						//因为玩家坦克不是在一个Arraylist的数组里面，所以无法像NPC坦克一样直接移除
-						//所以采取把玩家坦克位置设置到看不到的地方
 						animations.add(mainTank.explore());
 						mainTank.setX(-1000);
 					}

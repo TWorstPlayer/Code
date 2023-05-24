@@ -817,9 +817,10 @@ public static void main(String[] args) {
 }*/
 
 import java.util.*;
-
+<<<<<<< HEAD
 import java.util.function.Consumer;
-
+=======
+>>>>>>> 8dd169f622fad6524f3e4c0e0b0ba381f2ebc867
 
 public class Object1{
 
@@ -864,7 +865,7 @@ public class Object1{
         int a=ran.nextInt(10);
         System.out.println(a);*/
 
-
+<<<<<<< HEAD
       /*  public class Object2{
             public int a=1;
 
@@ -960,7 +961,7 @@ public class Object1{
         }*//*
 
 
-        //用forEach来进集合的遍历
+        //用forEach来进行集合的遍历
         strarr.forEach(new Consumer<String>() {
             @Override
             public void accept(String s) {
@@ -1057,18 +1058,16 @@ public class Object1{
 
     }*/
     public static void main(String[] args) {
-    /*    int a=4;
+        int a=4;
         System.out.println("aasd"+a);
         System.out.println('s'+a);
     }
-
+=======
         public class Object2{
             public int a=1;
 
-        }*/
-        ArrayList<String> arr = new ArrayList<>();
+        }
 
-        String  str= arr.get(0);
-        System.out.println(str);
-    }
+
+>>>>>>> 8dd169f622fad6524f3e4c0e0b0ba381f2ebc867
 }

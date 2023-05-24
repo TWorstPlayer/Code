@@ -39,8 +39,6 @@ public class Bullet {
 	public boolean isClick(int ax,int ay,int aw,int ah) {
 		return x<ax ||x>aw || y<ay || y>ah;
 	}
-
-	//这个函数看炮弹和坦克是否接触
 	public boolean isClick(Tank tank) {
 		int tx = tank.getX();
 		int ty = tank.getY();

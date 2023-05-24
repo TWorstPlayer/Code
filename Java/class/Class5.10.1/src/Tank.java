@@ -61,7 +61,7 @@ public class Tank {
 		Bullet bullet=null;
 		ax = x;
 		ay = y;
-		if(coolDown >= 5) {
+		if(coolDown >= 5) {		
 			switch(dir) {
 			case UP:ay -=17;break;
 			case RIGHT:ax += 17;break;
