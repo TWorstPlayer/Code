@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>370</x>
+      <y>170</y>
+      <w>210</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>GameResource
+--
+-img: Image
+_-intstance: GameResource_
+--
+-GameResource()
+_+getInstance():GameResource_
++getImage():Image</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
