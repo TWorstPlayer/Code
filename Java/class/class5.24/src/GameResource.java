@@ -9,7 +9,7 @@ public class GameResource {
 	private Image img;
 	private GameResource() {
 		File f;
-		f = new File("robots_sprite.png");
+		f = new File("D:\\桌面\\Code\\Java\\class\\class5.24\\src\\robots_sprite.png");
 		try {
 			img = ImageIO.read(f);
 		} catch (IOException e1) {

@@ -28,14 +28,14 @@ public class GameFrame extends JFrame implements KeyListener{
 	public GameFrame() {
 		
 	
-		setTitle("坦克大战");
+		setTitle("坦锟剿达拷战");
 		setSize(WIDTH,HEIGHT);
 		setLocation(200, 100);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
 		mainTank = new Tank(100,100);
 		mainTank = new DcrBloodTank(mainTank);
-		mainTank = new DcrStarTank(mainTank);
+	//	mainTank = new DcrStarTank(mainTank);
 		tanks.add(new TankNPC(200,100));
 			
 			
@@ -194,6 +194,6 @@ public class GameFrame extends JFrame implements KeyListener{
 
 }
 /*
- * 坦克可以发射炮弹，炮弹绘制在窗体上，按坦克的方向前进，以坦克两倍的速度移动。
+ * 坦锟剿匡拷锟皆凤拷锟斤拷锟节碉拷锟斤拷锟节碉拷锟斤拷锟斤拷锟节达拷锟斤拷锟较ｏ拷锟斤拷坦锟剿的凤拷锟斤拷前锟斤拷锟斤拷锟斤拷坦锟斤拷锟斤拷锟斤拷锟斤拷锟劫讹拷锟狡讹拷锟斤拷
  * 
  * */

@@ -5,7 +5,7 @@ public class MainClass {
 	public static void main(String[] args) {
 		
 		GameFrame frame = new GameFrame();
-		frame.setStrategy(new StrategyEasy());
+		//frame.setStrategy(new StrategyEasy());
 		frame.start();
 	}	
 }

@@ -7,7 +7,7 @@ import javax.imageio.ImageIO;
 
 public class EbltAnimation extends Animation {
 	public EbltAnimation(int ax,int ay) {
-		super(ax,ay,4);
+		super(ax,ay,5);
 		imgX = 34*16;
 		imgY = 34*4;
 	}
