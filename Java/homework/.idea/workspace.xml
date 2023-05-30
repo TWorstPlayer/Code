@@ -5,6 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7fb2a6ec-63a8-4027-a830-566b131f2d90" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/homework9/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework9/homework9.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework9/src/ArtificialTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework9/src/Bubblelelight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework9/src/Decorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework9/src/FlockedTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework9/src/Gardland.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework9/src/ITREE.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework9/src/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +25,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
