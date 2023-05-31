@@ -6,8 +6,8 @@ public class Test {
 
         ITREE tree2=new FlockedTree();
         tree2=new Bubblelelight(tree2);
-        tree2=new Bubblelelight(tree2);
-        tree2=new Bubblelelight(tree2);
+        tree2=new Gardland(tree2);
+        tree2=new Gardland(tree2);
         System.out.println(tree2.getDesc());
 
 

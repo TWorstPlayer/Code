@@ -36,7 +36,7 @@ public class GameFrame extends JFrame implements KeyListener{
 		mainTank = new Tank(100,100);
 		mainTank = new DcrBloodTank(mainTank);
 	//	mainTank = new DcrStarTank(mainTank);
-		tanks.add(new TankNPC(200,100));
+		//tanks.add(new TankNPC(200,100));
 			
 			
 		

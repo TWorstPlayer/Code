@@ -1,5 +1,5 @@
 
 public interface ICreateStrategy {
-	ITank createTank();
+	public abstract ITank createTank();
 
 }
