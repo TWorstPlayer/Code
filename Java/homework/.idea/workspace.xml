@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7fb2a6ec-63a8-4027-a830-566b131f2d90" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/../class/class5.24/src/ICreateStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../class/class5.24/src/ICreateStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../class/class5.24/src/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/../class/class5.24/src/MainClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../class/class5.24/src/StrategyEasy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../class/class5.24/src/StrategyEasy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../class/out/production/Class5.24/MainClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/../class/out/production/Class5.24/MainClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../class/out/production/Class5.24/StrategyEasy.class" beforeDir="false" afterPath="$PROJECT_DIR$/../class/out/production/Class5.24/StrategyEasy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework9/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/homework9/src/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../class/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../class/.idea/modules.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -815,28 +815,36 @@ public static void main(String[] args) {
         this.value = value;
     }
 }*/
-
+import java.io.*;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Path;
 import java.util.*;
 
 import java.util.function.Consumer;
 
 
+/*
 public class Object1{
 
     //public static void main(String[] args) {
-        /*int a=3;
+        */
+/*int a=3;
         Integer a1=3;
         System.out.println(a1.getClass());
-        int a12=3;*/
+        int a12=3;*//*
+
 
         //set里面的Hashset 不能存相同的数据
-        /*HashSet<String> arr=new HashSet<>();
+        */
+/*HashSet<String> arr=new HashSet<>();
         arr.add("abc");
         boolean a=arr.add("abc");
-        System.out.println(a);              //结果为false*/
+        System.out.println(a);              //结果为false*//*
 
 
-        /*String[] arr= new String[4];
+
+        */
+/*String[] arr= new String[4];
         arr[0]="a";
         arr[0]="b";
         arr[0]="c";
@@ -844,10 +852,12 @@ public class Object1{
 
         Iterator<String> I1= Arrays.stream(arr).iterator();
         String str1=I1.next();
-        System.out.println(str1);*/
+        System.out.println(str1);*//*
 
 
-       /* Collection<String> arr1=new ArrayList<>();
+
+       */
+/* Collection<String> arr1=new ArrayList<>();
         arr1.add("a");
         arr1.add("b");
         arr1.add("c");
@@ -855,77 +865,108 @@ public class Object1{
 
         Iterator<String> I1=arr1.iterator();
         var str1=I1.next();
-        System.out.println(str1);*/
+        System.out.println(str1);*//*
 
-        /*Scanner stdIN =new Scanner(System.in);
-        System.out.println(stdIN.next());*/
 
-        /*Random ran =new Random();
+        */
+/*Scanner stdIN =new Scanner(System.in);
+        System.out.println(stdIN.next());*//*
+
+
+        */
+/*Random ran =new Random();
         int a=ran.nextInt(10);
-        System.out.println(a);*/
+        System.out.println(a);*//*
 
 
-      /*  public class Object2{
+
+      */
+/*  public class Object2{
             public int a=1;
 
-        }*/
+        }*//*
+
 
     //javadoc的注释要像这个样子才行
-    /**
+    */
+/**
      *
      *
-     * dasdasds */
-  /*  String str;
+     * dasdasds *//*
+
+  */
+/*  String str;
     int a;
     private Object1(int a, String str) {
         this.a = a;
         this.str = str;
-    }*/
+    }*//*
+
     //public static void main(String[] args) {
-        /*Scanner input =new Scanner(System.in);
-        System.out.println(input.next());*/
-        /*ArrayList<String> arr=new ArrayList<>();
+        */
+/*Scanner input =new Scanner(System.in);
+        System.out.println(input.next());*//*
+
+        */
+/*ArrayList<String> arr=new ArrayList<>();
         arr.add("a");
         arr.add("b");
-        arr.add("ac");*/
+        arr.add("ac");*//*
+
         //Iterator<String> arr1 =arr.iterator();
        // arr1.remove();
-      /*  String a1=arr1.next();
-        System.out.println(a1);*/
+      */
+/*  String a1=arr1.next();
+        System.out.println(a1);*//*
 
-        /*double a=Math.floor(-8.5);
+
+        */
+/*double a=Math.floor(-8.5);
         System.out.println(a);
         int [] arr=new int[3];
-        System.out.println(Math.floor(-8.5));*/
+        System.out.println(Math.floor(-8.5));*//*
 
-       /* String str1= "abc";
+
+       */
+/* String str1= "abc";
         String str2= "abc";
-        System.out.println();*/
+        System.out.println();*//*
 
 
-        /*while(arr1.hasNext()){
+
+        */
+/*while(arr1.hasNext()){
         String a=arr1.next();
             System.out.println(a);
-        }*/
+        }*//*
 
 
-        /*String a="gao";
-        System.out.println(a+"was here");*/
-        /*int x=2;
+
+        */
+/*String a="gao";
+        System.out.println(a+"was here");*//*
+
+        */
+/*int x=2;
         int y=6;
-        System.out.println(x + y);*/
+        System.out.println(x + y);*//*
 
 
 
 
-       /* for (int i = 0; i < 4; ++i) {
+
+       */
+/* for (int i = 0; i < 4; ++i) {
             for (int j = 1; j < 3 ; ++j) {
                 System.out.println(i + j);
             }
-        }*/
-        /*ArrayList<String> arr= new ArrayList<>();
+        }*//*
+
+        */
+/*ArrayList<String> arr= new ArrayList<>();
         arr.add("Asdasd");
-        System.out.println(arr.size());*/
+        System.out.println(arr.size());*//*
+
 
 
 
@@ -936,28 +977,39 @@ public class Object1{
     //static  int i ;
 
     //public static void main(String[] args) {
-        /*System.out.println(i);*/
-       /* System.out.println(1+"10"+3+"2");
+        */
+/*System.out.println(i);*//*
+
+       */
+/* System.out.println(1+"10"+3+"2");
         int _213=3;
         int dddd=3;
         int $213=4;
-       // int 99=1;*/
-        /*int i;
+       // int 99=1;*//*
+
+        */
+/*int i;
         for(i=2;i<=4;i++){
             System.out.println(i);
-        }*/
+        }*//*
 
 
-       /* ArrayList<String> strarr =new ArrayList<>();
+
+       */
+/* ArrayList<String> strarr =new ArrayList<>();
 
         strarr.add("b");
         strarr.add("a");
         strarr.add(2,"c");//在指定处添加元素，并把原本的向后顺延一位//但他的前面必须是有元素才行
                                             //如果在index 3 处添加 则在index 2处必须要有元素才行
         strarr.set(0,"abc");//把指定处的元素更改为对应元素
-       *//* for (String s : strarr) {
+       *//*
+*/
+/* for (String s : strarr) {
             System.out.println(s);
         }*//*
+*/
+/*
 
 
         //用forEach来进集合的遍历
@@ -969,11 +1021,13 @@ public class Object1{
         });
 
 
-    }*/
+    }*//*
+
 
 
         
-        /*Collection<String> strarr= new ArrayList<>();
+        */
+/*Collection<String> strarr= new ArrayList<>();
         strarr.add("abd");
         strarr.add("abd");
         strarr.add("abd");
@@ -989,17 +1043,22 @@ public class Object1{
         list.remove(1);
 
         Integer a=3;
-        int b=4;*/
-        /*Integer a1=4;
-        int a2=a1;
-        System.out.println(a2);*/
+        int b=4;*//*
 
-        /*ArrayList<String> arr =new ArrayList<>();
+        */
+/*Integer a1=4;
+        int a2=a1;
+        System.out.println(a2);*//*
+
+
+        */
+/*ArrayList<String> arr =new ArrayList<>();
         arr.add("a");
         arr.add("b");
         arr.add("c");
 
-        Iterator<String> arrite =arr.iterator();*/
+        Iterator<String> arrite =arr.iterator();*//*
+
         //删除指向的后面的元素，但此时指针指向最后面，所以会出错
         //arrite.remove();
 
@@ -1007,57 +1066,76 @@ public class Object1{
 
         ////List系列集合的五种遍历方式
         //1：迭代器
-     /*  while(arrite.hasNext()){
+     */
+/*  while(arrite.hasNext()){
            String a = arrite.next();
         System.out.println(a);
-       }*/
+       }*//*
+
 
        //2：增强for
-        /*for (String str:arr
+        */
+/*for (String str:arr
              ) {
             System.out.println(str);
 
-        }*/
+        }*//*
+
 
         //3：Lamba表达式
         //arr.forEach(str-> System.out.println(str));
 
         //4:普通for循环
-        /*for (int i = 0; i < arr.size(); i++) {
+        */
+/*for (int i = 0; i < arr.size(); i++) {
             System.out.println(arr.get(i));
-        }*/
+        }*//*
+
 
         //5:列表迭代器
         //特殊点，可以在遍历的过程中往里面添加元素
-        /*ListIterator arrltie=arr.listIterator();
-        while(arrltie.hasNext()) System.out.println(arrltie.next());*/
+        */
+/*ListIterator arrltie=arr.listIterator();
+        while(arrltie.hasNext()) System.out.println(arrltie.next());*//*
 
-        /*ArrayList<String> arr=new ArrayList<>();
+
+        */
+/*ArrayList<String> arr=new ArrayList<>();
         System.out.println(arr.size());
         arr.add("A");
-        System.out.println(arr.);*/
+        System.out.println(arr.);*//*
 
-        /*int a=5;
+
+        */
+/*int a=5;
         Object a1=(Object) a;
         System.out.println(a1);
-        ArrayList<Integer> arr= new ArrayList<>();*/
+        ArrayList<Integer> arr= new ArrayList<>();*//*
 
-        /*ArrayList<Object> arr =new ArrayList<>();
+
+        */
+/*ArrayList<Object> arr =new ArrayList<>();
         arr.add("A");
         arr.add(1);
-        arr.add("b");*/
+        arr.add("b");*//*
 
-        /*MyArrayList arr= new MyArrayList();
-        arr.add("ads12121a");*/
+
+        */
+/*MyArrayList arr= new MyArrayList();
+        arr.add("ads12121a");*//*
+
 
     //}
 
-    /*public static <E> void abc(ArrayList<E> list)
+    */
+/*public static <E> void abc(ArrayList<E> list)
     {
 
-    }*/
-    public static void main(String[] args) {
-    /*    int a=4;
+    }*//*
+
+    public static void main(String[] args) throws IOException {
+    */
+/*    int a=4;
         System.out.println("aasd"+a);
         System.out.println('s'+a);
     }
@@ -1065,10 +1143,176 @@ public class Object1{
         public class Object2{
             public int a=1;
 
-        }*/
-        ArrayList<String> arr = new ArrayList<>();
+        }*//*
+
+        */
+/*ArrayList<String> arr = new ArrayList<>();
 
         String  str= arr.get(0);
-        System.out.println(str);
+        System.out.println(str);*//*
+
+        */
+/*int x1=10;
+        int x2=10;
+        System.out.println(x1+"3"+x2);
+        System.out.println(x1+'3'+x2);*//*
+
+
+    */
+/*    int x,y=2;
+        String str="a";
+        if((x-y)*(x-str)==0)
+        {
+            System.out.println(1);
+        }
+    }*//*
+
+        */
+/*String str= "str\tdasd";
+        System.out.println(str);*//*
+
+        */
+/*StringTokenizer st = new StringTokenizer("there are apples;bananas", ";");
+        String s;
+        int count = 0;
+        while (st.hasMoreTokens()) {
+            s = st.nextToken();
+            ++count;
+        }
+        System.out.println(count);*//*
+
+
+       */
+/* System.out.println(1);
+        System.out.println(2);
+        System.out.println(3);*//*
+
+       */
+/* InputStream input =new FileInputStream("D:\桌面\Code\Java\Java core tech\Java core tech1\abc.txt");
+        char a= (char) input.read();
+        System.out.println(a);*//*
+
+        */
+/*byte[] buffer =new byte[3];
+        InputStream input =new FileInputStream("D:\\桌面\\Code\\Java\\Java core tech\\Java core tech1\\abc.txt");*//*
+
+      */
+/*  int len =input.read(buffer);
+        System.out.println(len);
+        System.out.print((char)buffer[0]);
+        System.out.print((char)buffer[1]);
+        System.out.println((char)buffer[2]);
+
+        int len1=input.read(buffer);
+        System.out.println(len);
+        System.out.print((char)buffer[0]);
+        System.out.print((char)buffer[1]);
+        System.out.print((char)buffer[2]);*//*
+
+
+        */
+/*byte[] buffer1 =new byte[3];
+        int len2=0;
+        while((len2=input.read(buffer))!=0-1) System.out.print(new String(buffer,0,len2));
+        System.out.println();
+
+        byte[] arr={97,98,99,88};
+        System.out.print(new String(arr,0,arr.length));*//*
+
+
+        */
+/*Scanner input= new Scanner(System.in);
+        String a = input.next();
+        System.out.println(a);*//*
+
+
+        */
+/*Scanner in =new Scanner(Path.of("D:\\桌面\\Code\\Java\\Java core tech\\Java core tech1\\abc.txt"), StandardCharsets.UTF_8);
+        System.out.println(in);*//*
+
+
+         */
+/*InputStream input =new FileInputStream("D:\\桌面\\Code\\Java\\Java core tech\\Java core tech1\\abc.txt");
+         input.close();
+        char a= (char) input.read();
+        System.out.println(a);*//*
+
+
+        */
+/*OutputStream out =new FileOutputStream("D:\\桌面\\Code\\Java\\Java core tech\\Java core tech1\\abc1.txt");
+        out.write('人');
+
+        out.flush();*//*
+
+
+       */
+/* ArrayList<Integer> a= new ArrayList<>();
+        a.add(1);
+        a.add(3);
+        a.add(2);
+        for (int i=0;i<3;i++)
+        System.out.println(a.get(i));
+
+        var arr =new Integer[a.size()];
+        a.toArray(arr);
+        for (int i=0;i<3;i++)
+            System.out.println(arr[i]);
+
+        Iterator<Integer> iterator=a.iterator();
+        iterator.next();
+        iterator.remove();
+        iterator.remove();*//*
+
+
+        */
+/*Vector<Integer> arr= new Vector<>();
+        arr.add(1);
+        arr.add(3);
+        arr.add(2);
+        for (int i=0;i<3;i++)
+            System.out.println(arr.get(i));
+
+        var arr1 =new Integer[arr.size()];
+        arr.toArray(arr1);
+
+        for (int i=0;i<3;i++)
+            System.out.println(arr1[i]);*//*
+
+
+        */
+/*byte a=10;
+        System.out.println(3.14/0);
+        int[] arr=new int[3];*//*
+
+       */
+/* double a=3.2;
+        System.out.println(a/0);
+        System.out.println(Math.sqrt(-2));
+
+        String str1="abcdefg";
+        var str2=str1.substring(0,3);
+        System.out.println(str2);*//*
+
+
+
+    }
+}*/
+public class Object1{
+    public static void main(String[] args) {
+       /* String a="96000";
+        String b="9600";*/
+       /* Integer a1= Integer.valueOf(a);
+        System.out.println(a1);
+        int ifa =3;*/
+       /* String a1=a+b;
+        System.out.println(a1);*/
+       /* String a="abcdefg";
+        String b=a.substring(2);
+        String b1="a";
+        System.out.println(b);*/
+        String b1="999";
+        Integer a1=Integer.valueOf(b1);
+        System.out.println(a1);
+
     }
 }
