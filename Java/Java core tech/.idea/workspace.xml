@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45256769-5830-4834-b55f-de006e2a8d22" name="变更" comment="">
-      <change beforePath="$PROJECT_DIR$/../../算法/二分和前缀和/整数二分/.vs/整数二分/FileContentIndex/144c4ee5-4dc6-4722-980c-eb6816a3b90f.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../算法/二分和前缀和/整数二分/.vs/整数二分/FileContentIndex/370b414f-a325-411e-9e2a-d37809b5ecae.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../算法/二分和前缀和/整数二分/.vs/整数二分/FileContentIndex/9db9e5ec-0b26-47cb-bee7-857a74f58bd6.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../算法/二分和前缀和/整数二分/.vs/整数二分/FileContentIndex/b2c19ca6-89e9-4214-b16a-956f3717b992.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../算法/二分和前缀和/整数二分/.vs/整数二分/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../算法/二分和前缀和/整数二分/.vs/整数二分/v17/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../算法/二分和前缀和/整数二分/.vs/整数二分/v17/Browse.VC.db" beforeDir="false" afterPath="$PROJECT_DIR$/../../算法/二分和前缀和/整数二分/.vs/整数二分/v17/Browse.VC.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../算法/二分和前缀和/整数二分/源.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../算法/二分和前缀和/整数二分/源.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="45256769-5830-4834-b55f-de006e2a8d22" name="变更" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,7 +42,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "20",
-    "last_opened_file_path": "C:/Users/29109/Downloads/CyanTheme.jar",
+    "last_opened_file_path": "D:/桌面/CS61b/lab1",
     "project.structure.last.edited": "模块",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
