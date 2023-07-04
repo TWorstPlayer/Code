@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>D:\桌面\Code\C++\Project1\</FILEPATH>
+      <FILENAME>FileName.cpp</FILENAME>
+      <LINE>106</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 father::a。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>father::{ctor}</FUNCTION>
+    <DECORATED>??0father@@QEAA@XZ</DECORATED>
+    <FUNCLINE>106</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>father::a</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT></DEFECTS>
