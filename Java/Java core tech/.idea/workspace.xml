@@ -4,7 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45256769-5830-4834-b55f-de006e2a8d22" name="变更" comment="" />
+    <list default="true" id="45256769-5830-4834-b55f-de006e2a8d22" name="变更" comment="">
+      <change beforePath="$PROJECT_DIR$/../../C++/Project1/.vs/Project1/FileContentIndex/2bcfa57a-39e7-4757-90f9-7b65b96cacff.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/Project1/.vs/Project1/FileContentIndex/a793e1e8-2efa-428b-8ac7-325fcc4ef38c.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/Project1/.vs/Project1/FileContentIndex/c62efae2-d6e4-4b2f-9ebb-1f1791925b91.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/Project1/.vs/Project1/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/Project1/.vs/Project1/v17/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/Project1/.vs/Project1/v17/Browse.VC.db" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/Project1/.vs/Project1/v17/Browse.VC.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/Project1/.vs/Project1/v17/ipch/AutoPCH/58a6c8a4b8a22786/FILENAME.ipch" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/Project1/.vs/Project1/v17/ipch/AutoPCH/58a6c8a4b8a22786/FILENAME.ipch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/Project1/Project1.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/Project1/Project1.vcxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/Project1/x64/Debug/FileName.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/Project1/x64/Debug/FileName.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/Project1/x64/Debug/Person.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/Project1/x64/Debug/Person.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/Project1/x64/Debug/Project1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/Project1/x64/Debug/Project1.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/Project1/x64/Debug/Project1.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/Project1/x64/Debug/Project1.ilk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/Project1/x64/Debug/Project1.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/Project1/x64/Debug/Project1.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/Project1/x64/Debug/Project1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/Project1/x64/Debug/Project1.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/Project1/x64/Debug/Project1.tlog/CL.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/Project1/x64/Debug/Project1.tlog/CL.command.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/Project1/x64/Debug/Project1.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/Project1/x64/Debug/Project1.tlog/CL.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/Project1/x64/Debug/Project1.tlog/CL.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/Project1/x64/Debug/Project1.tlog/CL.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/Project1/x64/Debug/Project1.tlog/Project1.lastbuildstate" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/Project1/x64/Debug/Project1.tlog/Project1.lastbuildstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/Project1/x64/Debug/Project1.tlog/link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/Project1/x64/Debug/Project1.tlog/link.read.1.tlog" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,7 +61,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "20",
-    "last_opened_file_path": "D:/桌面/CS61b/lab1",
+    "last_opened_file_path": "D:/桌面/Code/Java/Java core tech",
     "project.structure.last.edited": "模块",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",

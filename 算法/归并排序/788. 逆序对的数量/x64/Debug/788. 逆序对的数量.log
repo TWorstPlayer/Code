@@ -1,0 +1,4 @@
+﻿  FileName.cpp
+D:\桌面\Code\算法\归并排序\788. 逆序对的数量\FileName.cpp(56,22): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+D:\桌面\Code\算法\归并排序\788. 逆序对的数量\FileName.cpp(64,22): warning C4554: “>>”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+  788. 逆序对的数量.vcxproj -> D:\桌面\Code\算法\归并排序\788. 逆序对的数量\x64\Debug\788. 逆序对的数量.exe

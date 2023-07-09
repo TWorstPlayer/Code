@@ -1,0 +1,3 @@
+﻿  FileName.cpp
+D:\桌面\Code\算法\快速排序\第K个数\FileName.cpp(7,22): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+  第K个数.vcxproj -> D:\桌面\Code\算法\快速排序\第K个数\x64\Debug\第K个数.exe
