@@ -1,0 +1,5 @@
+﻿  FileName.cpp
+D:\桌面\Code\算法\二分和前缀和\整数二分2\FileName.cpp(6,22): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+D:\桌面\Code\算法\二分和前缀和\整数二分2\FileName.cpp(19,27): warning C4554: “>>”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+D:\桌面\Code\算法\二分和前缀和\整数二分2\FileName.cpp(28,19): warning C4554: “>>”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+  整数二分2.vcxproj -> D:\桌面\Code\算法\二分和前缀和\整数二分2\x64\Debug\整数二分2.exe
